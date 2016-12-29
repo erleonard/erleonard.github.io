@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Starting a blog"
 date:   2016-12-29 12:47:12 -0500
 categories: blog
