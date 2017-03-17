@@ -8,9 +8,6 @@ tags:
   - Azure
 ---
 
-# Azure Notes for the week of March 17, 2017
-
-
 ## Azure
 
 [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) <br>
