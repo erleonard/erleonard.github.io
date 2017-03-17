@@ -13,13 +13,17 @@ tags:
 
 ## Azure
 
-[Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/)
+[Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) <br>
+Reference Architectures, Best Practices & Cloud Design Patterns
 
-[Announcing Storage Optimized Virtual Machines, L Serie](https://azure.microsoft.com/en-ca/blog/announcing-storage-optimized-virtual-machines-l-series/)
+[Announcing Storage Optimized Virtual Machines, L Serie](https://azure.microsoft.com/en-ca/blog/announcing-storage-optimized-virtual-machines-l-series/) <br>
+The L Series for Storage optimizes workloads that require low latency, such as NoSQL databases (e.g. Cassandra, MongoDB, Cloudera and Redis). 
 
-[Instant File Recovery from Azure Linux VM backup using Azure Backup – Preview](https://azure.microsoft.com/en-ca/blog/instant-file-recovery-from-azure-linux-vm-backup-using-azure-backup-preview/)
+[Instant File Recovery from Azure Linux VM backup using Azure Backup – Preview](https://azure.microsoft.com/en-ca/blog/instant-file-recovery-from-azure-linux-vm-backup-using-azure-backup-preview/) <br>
+ Instant file recovery from Azure Windows VM backups which enables you to restore files instantly from the Azure Recovery Services Vault with no additional cost or infrastructure. Today, we are excited to announce the same feature for Azure Linux VM backups in preview.
 
-[Using templates to customize restored VMs from Azure Backup](https://azure.microsoft.com/en-ca/blog/azure-backup-restore-template/)
+[Using templates to customize restored VMs from Azure Backup](https://azure.microsoft.com/en-ca/blog/azure-backup-restore-template/) ,br>
+In this blog post, we will cover how you can customize the VM that will be created as part of restore operation from Azure backup to match your restore requirements.
 
 ## Azure AD
 
@@ -39,6 +43,8 @@ This cheat sheet provides a summary of the current syntax for OMS Log Search. Lo
 
 ## DevOps
 
-[Chef Survey 2017: Results](https://blog.chef.io/2017/03/15/chef-survey-2017-results/)
+[Chef Survey 2017: Results](https://blog.chef.io/2017/03/15/chef-survey-2017-results/) <br>
+Chef survey 2017 results on the "The Continuous Enterprise"
 
-[Docker Turn 4](https://blog.docker.com/2017/03/thank-you-docker-community-2/)
+[Docker Turn 4](https://blog.docker.com/2017/03/thank-you-docker-community-2/) <br>
+Happy Birthday to Docker who turns 4
