@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Azure Notes: 2017-03-17"
-date:   2017-03-09 12:47:12 -0500
+date:   2017-03-017 14:17:12 -0500
 categories:
   - Azure
 tags:
