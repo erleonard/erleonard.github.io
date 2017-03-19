@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Azure: Rename Subscription"
-date:   2017-03-09 12:47:12 -0500
+date:   2017-03-18 12:47:12 -0500
 categories:
   - Azure
 tags:
@@ -26,4 +26,4 @@ Renaming your Azure subscriptions can be very handy when working with multiple s
 <br>
 ![screenshot_01](https://erleonard.github.io/assets/images/2017/subscriptionrename-05.PNG)
 
-Once the change is complete, it can take up to 10 minutes for the portal to reflect the change.
+Once the change is complete, it can take up to 10 minutes for the portal to reflect the changes.
