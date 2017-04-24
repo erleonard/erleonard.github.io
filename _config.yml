@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Eric's Blog'"
 title_separator          : "-"
 name                     : "Eric Leonard"
-description              : "Automation, Automation, Automation."
+description              : "A Cloud Journey"
 url                      : "https://erleonard.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "erleonard/erleonard.github.io"
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Eric Leonard"
   avatar           : "/assets/images/me.jpg"
-  bio              : "Humble Automation Person"
+  bio              : "A Cloud Journey to Awesomeness"
   location         : "Ottawa,Canada"
   email            : "eric.leonard@gmail.com"
   uri              :
