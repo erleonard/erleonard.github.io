@@ -6,6 +6,7 @@ categories:
   - Azure
 tags:
   - Azure
+  - GAB
 ---
 
 Global Azure Bootcamp is all done and it was a fantastic event.  I really enjoyed speaking and talking to all of the participants.
