@@ -9,14 +9,20 @@ tags:
   - HowTo
   - PowerShell
 ---
-##item1
+Automate the creation of the resources required to deploy a single virtual machine in Azure utilizing PowerShell.
+
+## Create Resource Group
+Create a new resource group in our Azure subscription.
 <script src="https://gist.github.com/erleonard/636f95f9224ffc0025b23b7795ac9711.js"></script>
 
-##item2
+## Create Storage Account
+Create a new storage account to hold our VHDs.
 <script src="https://gist.github.com/erleonard/6525708e2d7b75c0774cb345a0a06c97.js"></script>
 
-##item3
+## Create Networking
+Create Virtual Network, Public IP address, Network Security Group (NSG) and associated all to a new network interface.
 <script src="https://gist.github.com/erleonard/948da813006b7b98534a649bc025dfd3.js"></script>
 
-##item4
+## Create and Deploy Virtual Machine
+Create a new Windows Server 2016 Virtual Machine and deploy.
 <script src="https://gist.github.com/erleonard/5dc875f26148d9bd82a0becc42287938.js"></script>
