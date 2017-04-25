@@ -10,9 +10,4 @@ tags:
   - PowerShell
 ---
 
-Azure portal
-new, Compute, Window Server 2016
-Step1, fill information
-Step2, select size
-Step3, configure settings
-Step4, summary, verify and create
+<script src="https://gist.github.com/erleonard/fbc7e20dc92bddcb507078487c04e8fd.js"></script>
