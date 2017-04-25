@@ -9,5 +9,14 @@ tags:
   - HowTo
   - PowerShell
 ---
+##item1
+<script src="https://gist.github.com/erleonard/636f95f9224ffc0025b23b7795ac9711.js"></script>
 
-<script src="https://gist.github.com/erleonard/fbc7e20dc92bddcb507078487c04e8fd?file=new-resourcegroup-ps1"></script>
+##item2
+<script src="https://gist.github.com/erleonard/6525708e2d7b75c0774cb345a0a06c97.js"></script>
+
+##item3
+<script src="https://gist.github.com/erleonard/948da813006b7b98534a649bc025dfd3.js"></script>
+
+##item4
+<script src="https://gist.github.com/erleonard/5dc875f26148d9bd82a0becc42287938.js"></script>
