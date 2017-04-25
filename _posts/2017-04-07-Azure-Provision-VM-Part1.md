@@ -10,4 +10,4 @@ tags:
   - PowerShell
 ---
 
-<script src="https://gist.github.com/erleonard/fbc7e20dc92bddcb507078487c04e8fd.js"></script>
+<script src="https://gist.github.com/erleonard/fbc7e20dc92bddcb507078487c04e8fd#file-new-resourcegroup-ps1"></script>
