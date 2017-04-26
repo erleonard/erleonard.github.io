@@ -9,7 +9,7 @@ tags:
   - HowTo
   - PowerShell
 ---
-Automate the creation of the resources required to deploy a single virtual machine in Azure utilizing PowerShell.
+Automate the creation of the resources required to deploy a single virtual machine using the Azure Resource Manager (ARM) PowerShell Cmdlets. This article will cover the steps to create unmanged disks for our VM.  In part 2, we will create a VM with managed disks.
 
 ## Create Resource Group
 Create a new resource group in our Azure subscription.
