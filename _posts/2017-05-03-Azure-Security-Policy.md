@@ -36,8 +36,6 @@ Afterwards we will need to select the appropriate subscription, create the azure
 If you do not wish to make your policy subscription wide, you can apply it to a specific resource group.
 <script src="https://gist.github.com/erleonard/db7c663be58e1d62598ec9ac1cf35973.js"></script>
 
-Check the logs<script src="https://gist.github.com/erleonard/08ea580bdd0d3b774d955a3708b46ba1.js"></script>
-
 ### View the Azure Security Policy
 
 Verify your Azure security policy definition by utilizing the following command:
