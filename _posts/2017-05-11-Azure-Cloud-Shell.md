@@ -8,8 +8,6 @@ tags:
   - Azure
 ---
 
-![Screenshot2](https://erleonard.github.io/assets/images/2017/2017-05-11-Azure-Cloud-Shell.jpg)
-
 This week at Microsoft Build 2017, Azure Cloud Shell was unveiled as a new addition to the Azure portal. This is a built-in browser based Bash shell that allows developers to generate a full-fledged terminal environment and has a pre-configured set of tools for managing deployments. Each user will have persistent file storage in their Cloud Shell hosted in Microsoft Azure.
 
 Cloud Shell sessions are not persistent and requires Azure file share to be mounted to persist the $Home directory.
@@ -28,6 +26,5 @@ PowerShell for the Cloud Shell is coming soon.
 ### Resources
 
 [Azure Cloud Shell Features](https://docs.microsoft.com/en-ca/azure/cloud-shell/features)
-
 [Azure Cloud Shell Quickstart](https://docs.microsoft.com/en-ca/azure/cloud-shell/quickstart)
 
