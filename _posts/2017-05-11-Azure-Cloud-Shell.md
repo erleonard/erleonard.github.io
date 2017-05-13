@@ -22,9 +22,11 @@ PowerShell for the Cloud Shell is coming soon.
 2. Select a subscription to create a storage account and Azure file share with
 ![Screenshot1](https://erleonard.github.io/assets/images/2017/2017-05-11-Azure-Cloud-Shell-Storage.PNG)
 3. Select "Create storage"
+4. After the initialization is complete, the Azure Cloud Shell will launch.
+![Screenshot2](https://erleonard.github.io/assets/images/2017/2017-05-11-Azure-Cloud-Shell.png)
 
 ### Resources
 
-[Azure Cloud Shell Features](https://docs.microsoft.com/en-ca/azure/cloud-shell/features)
-[Azure Cloud Shell Quickstart](https://docs.microsoft.com/en-ca/azure/cloud-shell/quickstart)
+- [Azure Cloud Shell Features](https://docs.microsoft.com/en-ca/azure/cloud-shell/features)
+- [Azure Cloud Shell Quickstart](https://docs.microsoft.com/en-ca/azure/cloud-shell/quickstart)
 
