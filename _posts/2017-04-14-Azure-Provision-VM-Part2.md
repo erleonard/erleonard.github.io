@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "Azure Provision VM - Part1"
-date:   2017-04-07 14:17:12 -0500
+title:  "Azure Provision VM - Part2"
+date:   2017-04-14 14:17:12 -0500
 categories:
   - Azure
 tags:
