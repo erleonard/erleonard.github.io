@@ -14,7 +14,7 @@ This article will how to create a site-to-site vpn from Azure subscription to my
 # Azure Steps
 
 ## Create Resource Group
-Create a new resource group in our Azure subscription.
+Create a new resource group in your Azure subscription.
 <script src="https://gist.github.com/erleonard/636f95f9224ffc0025b23b7795ac9711.js"></script>
 
 ## Create vNet and Subnets
@@ -32,19 +32,19 @@ Create the public ip address for your VPN gateway to be able to communicate back
 
 <script src="https://gist.github.com/erleonard/e9099f0ba3489c13ac336eadc594a717.js"></script>
 
-## Create the gateway IP addressing configuration
-Create the gateway ip addressing by assigning the subnet and public ip address.
+## Create the VPN Gateway Connectivity
+Create the VPN gateway connectivity by assigning the subnet and public ip address.
 
 <script src="https://gist.github.com/erleonard/d1acd2144348d9245dfa516211203ce5.js"></script>
 
 ## Create the VPN gateway
-Combine all the previous steps and create a VPN gateway.  This can take some time to complete, for me it took on average 30 minutes to complete.
+This will combine all the previous steps and create a VPN gateway.  This can take some time to complete, for me it took on average 30 minutes to complete.
 
 <script src="https://gist.github.com/erleonard/0452846cf4579499a1f194de8978e8e1.js"></script>
 
 
 ## Configure the connection
-Create and configure the connection between azure and your on-site router. I used the cmdlet New-Guid to randomly generate a PassPhrase and output me the results so that I can use it in the next step of configuring pfSense.
+Create and configure the connection between azure and your on-site router. I used the cmdlet New-Guid to randomly generate a PassPhrase and output me the results so that I can use it in the next step to configuring pfSense.
 
 <script src="https://gist.github.com/erleonard/78a94e7cb54cda7d7582ce12bce1c0c4.js"></script>
 
@@ -75,5 +75,5 @@ Create and configure the connection between azure and your on-site router. I use
 
 5. Now click Status > IPsec
 
-Click Connect VPN. It should take a couple of seconds to connect. Press F5 to refresh and navigate back to Status > IPsec if necessary.
+6. Click Connect VPN. It should take a couple of seconds to connect. Press F5 to refresh and navigate back to Status > IPsec if necessary.
 You should now be connected.
