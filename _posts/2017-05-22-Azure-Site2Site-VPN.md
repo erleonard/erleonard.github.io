@@ -71,9 +71,9 @@ Create and configure the connection between azure and your on-site router. I use
     * Hash Algorithm: SHA1
     * PFS Key Group: 2 (1024 bit)
 
-4. Click Save and then Apply Settings.
+6. Click Save and then Apply Settings.
 
-5. Now click Status > IPsec
+7. Now click Status > IPsec
 
-6. Click Connect VPN. It should take a couple of seconds to connect. Press F5 to refresh and navigate back to Status > IPsec if necessary.
+8. Click Connect VPN. It should take a couple of seconds to connect. Press F5 to refresh and navigate back to Status > IPsec if necessary.
 You should now be connected.
