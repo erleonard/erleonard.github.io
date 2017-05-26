@@ -75,5 +75,4 @@ Create and configure the connection between azure and your on-site router. I use
 
 7. Now click Status > IPsec
 
-8. Click Connect VPN. It should take a couple of seconds to connect. Press F5 to refresh and navigate back to Status > IPsec if necessary.
-You should now be connected.
+8. Click Connect VPN. Press F5 to refresh and see the connectivity status as connected.
