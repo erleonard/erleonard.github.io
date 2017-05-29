@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Eric's Blog'"
+title                    : "Eric's Azure Blog'"
 title_separator          : "-"
 name                     : "Eric Leonard"
 description              : "A Cloud Journey"
@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Eric Leonard"
-  avatar           : "/assets/images/me.jpg"
+  avatar           : "/assets/images/me_xsmall.jpg"
   bio              : "A Cloud Journey to Awesomeness"
   location         : "Ottawa,Canada"
   email            : "eric.leonard@gmail.com"
