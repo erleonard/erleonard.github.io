@@ -10,7 +10,7 @@ tags:
   - PowerShell
   - ARM
 ---
-Recently I have been using DevTest Labs to test customer scenarios a lot and deploying a new lab is quite easy utilizing the DevTest Lab quickstart templates. https://github.com/Azure/azure-devtestlab
+Recently I have been using DevTest Labs to test customer scenarios a lot and deploying a new lab is quite easy utilizing the [Azure DevTest Lab quickstart templates](https://github.com/Azure/azure-devtestlab).
 
 Here are the steps to creating a DevTest Lab in your subscription:
 
