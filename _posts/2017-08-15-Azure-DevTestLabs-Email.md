@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Azure DevTest Labs deployment Auto-Shutdown with Email"
+title:  "Azure DevTest Labs deployment with Email Notifications"
 date:   2017-08-15 14:17:12 -0500
 categories:
   - Azure
