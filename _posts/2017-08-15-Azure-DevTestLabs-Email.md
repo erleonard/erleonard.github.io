@@ -12,7 +12,7 @@ tags:
 My previous blog post on [scheduling DevTest Labs](http://erleonard.me/azure/Azure-DevTestLabs-Deployment-Schedules/) showed how you could use a paramater to fill the webhook URL for Auto-Shutdown notifications.  Since that blog post, you can now use an email address instead of a webhook.
 
 ### Shutdown Notifications
-Add an email address to send shutdown notifications. 
+To add an email notification to your DevTest Lab, you need to change the property value of **webHookUrl** to NULL and add the **emailRecipient** property with the desired value.
 
 <script src="https://gist.github.com/erleonard/a816e3f3bd0bd5e75f98e87369567c63.js"></script>
 
