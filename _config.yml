@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Eric's Azure Blog'"
+title                    : "Eric's Azure Blog"
 title_separator          : "-"
 name                     : "Eric Leonard"
 description              : "A Cloud Journey"
