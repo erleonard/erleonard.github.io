@@ -11,6 +11,7 @@ tags:
 At Microsoft Ignite this week, it was revealed new functionality to Virtual Network to protect SQL and Storage accounts endpoints from the internet or restrict access to parts of your Virtual Network.
 
 This feature is in preview currently and only available in certain regions:
+
 **Azure Storage**: WestCentralUS, WestUS2, EastUS, WestUS, AustraliaEast, and AustraliaSouthEast
 **Azure SQL Database**: WestCentralUS, WestUS2, and EastUS.
 
