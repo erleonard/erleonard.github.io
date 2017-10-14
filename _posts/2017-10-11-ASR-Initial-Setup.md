@@ -9,7 +9,7 @@ tags:
   - Azure Site Recovery
 ---
 
-Continuing our series of blog posts for Azure Site Recovery, we will be creating the Recovery Services Vault utilizing an ARM Template.
+Continuing our series of blog posts for Azure Site Recovery, we will be creating the Recovery Services Vault utilizing an ARM Template. Included in the template is a storage account to replicate your data to and virtual network to perform failovers.
 
 To deploy this ARM template, you will need to define the resource group and location of that resource group from the script below. Tip: to get a list of locations for Azure you can use the following Azure command: Get-AzureRMLocation.
 
@@ -27,8 +27,13 @@ $Location = "canadaeast"
 #Create resource group
 New-AzureRmResourceGroup -Name $ResourceGroup -Location $Location
 
-$parameters = @{}
-$parameters.Add("VaultName", "ASRvault")
-  New-AzureRmResourceGroupDeployment -Name ASRDeployment -ResourceGroupName $ResourceGroup -TemplateParameterObject $parameters -TemplateUri https://raw.githubusercontent.com/erleonard/AzureARMTemplates/master/Site-Recovery-Vault-Creation/azuredeploy.json'
-  -verbose
+New-AzureRmResourceGroupDeployment -Name ASRDeployment `
+                                   -ResourceGroupName $ResourceGroup `
+                                   -TemplateUri 'https://raw.githubusercontent.com/erleonard/AzureARMTemplates/master/Site-Recovery-Vault-Creation/azuredeploy.json' `
+                                   -VaultName 'ASR' `
+                                   -ASRVaultVNName 'ASRVault-VNET-PROD' `
+                                   -ASRVaultSAType 'Standard_LRS' `
+                                   -Verbose
 ````
+## Deploy using Azure Portal
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ferleonard%2FAzureARMTemplates%2Fmaster%2FSite-Recovery-Vault-Creation/azuredeploy.json)
