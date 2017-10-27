@@ -17,7 +17,7 @@ In the following steps we will establish disaster recovery protection for on-pre
 
 ## Prepare Your Infrastructure
 
-## Step 1: Protection Goal
+### Step 1: Protection Goal
 
 1. Go to your Recovery Vault your created in the previous article.
 2. Under Getting Started, click Site Recovery and select Prepare Infrastructure
@@ -26,7 +26,7 @@ In the following steps we will establish disaster recovery protection for on-pre
     - Where do you want to replicate your machines to? **To Azure**
     - Are you machines virtualized? **Yes, with Hyper-V**
 
-## Step 2: Configure your On-Premise Environment
+### Step 2: Configure your On-Premise Environment
 
 1. In Prepare Source, select **Hyper-V Site** and give it a good descriptive name.
 2. Still in Prepare Source, select **Hyper-V Server**.
@@ -34,13 +34,13 @@ In the following steps we will establish disaster recovery protection for on-pre
 4. On your Hyper-V host, run the installation of the Azure Site Recovery Provider and, when you receive a prompt, provide the vault registration key.
     - **Note:** Hyper-V host registration can take up to 30 minutes to showup in Azure.
 
-## Step 3: Configure Target Environment
+### Step 3: Configure Target Environment
 
 1. In Prepare Target, select your subscription and resource group where the Azure VM's will be created after failover.
 2. Storage Account: ensure the storage account that was created previously is selected.
 3. Virtual Network: ensure the virtual network that was created previously is selected.
 
-## Step 4: Configure Replication Settings
+### Step 4: Configure Replication Settings
 
 1. In Replication Policy, select **Create and associate policy**
 2. Specify a policy name
