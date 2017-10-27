@@ -36,4 +36,6 @@ New-AzureRmResourceGroupDeployment -Name ASRDeployment `
                                    -Verbose
 ````
 ## Deploy using Azure Portal
+If you don't have PowerShell installed or don't want to use it, you can click on the button to deploy the template directly from the Azure Portal.
+
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ferleonard%2FAzureARMTemplates%2Fmaster%2FSite-Recovery-Vault-Creation%2Fazuredeploy.json)
