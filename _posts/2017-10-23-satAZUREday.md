@@ -9,8 +9,7 @@ tags:
   - Public Speaking
 ---
 
-![satAZUREday](https://erleonard.github.io/assets/images/2017/2017-10-23-satAZUREday.png)
-
+![satAZUREday](https://erleonard.github.io/assets/images/2017/2017-10-23-satAZUREday.PNG)
 
 I’m proud to announce that in am organizing and speaking at satAzureday here in Ottawa.
 
