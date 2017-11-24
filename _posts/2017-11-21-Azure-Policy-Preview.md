@@ -8,7 +8,7 @@ tags:
   - Azure
 ---
 
-Azure Policy (public preview) is a new blade that help you manage policies easily across all of your subscriptions in a single place. The new blade provides continous monitoring of compliance from a single dashboard.
+Azure Policy (public preview) is a new blade in the Azure portal that helps you manage policies easily across all of your subscriptions in a single place. The new blade provides continous monitoring of compliance from a single dashboard.
 
 **Policy definition** <br>
 Azure Policy already provides some pre-built definitions to help you get started.
