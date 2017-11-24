@@ -32,11 +32,15 @@ Verbose Azure subscription names make understanding the context and purpose of e
 
 Sample naming convention: <br>
 <Company> <Department (optional)> <Product Line (optional)> <Environment> 
+<br>
 
 **Company**|**Department**|**Product Line or Service**|**Environment**|**Full Name**
 :-----:|:-----:|:-----:|:-----:|:-----:
 TLAB|satAZUREday|AwesomeService|Production|TLAB satAZUREday AwesomeService Production
 TLAB|SocialGaming|AwesomeService|Dev|TLAB satAZUREday AwesomeService Dev
+
+#### Resources
+Verbose azure resources names make it easy to understand the purpose and workload.
 
 ### Policies
 
