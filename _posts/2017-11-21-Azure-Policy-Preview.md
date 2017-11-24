@@ -13,23 +13,23 @@ Azure Policy (public preview) is a new blade that help you manage policies easil
 **Policy definition** <br>
 Azure Policy already provides some pre-built definitions to help you get started.
 The Policies that are available are:
-- [Preview]: Apply Diagnostic Settings for Network Security Groups
-- [Preview]: Audit missing blob encryption for storage accounts
-- [Preview]: Automatic provisioning of security monitoring agent
-- [Preview]: Deploy default Microsoft IaaSAntimalware extension for Windows Server
-- [Preview]: Deploy network watcher when virtual networks are created
-- [Preview]: Monitor missing Endpoint Protection in Security Center
-- [Preview]: Monitor missing system updates in Security Center
-- [Preview]: Monitor OS vulnerabilities in Security Center
-- [Preview]: Monitor permissive network access in Security Center
-- [Preview]: Monitor possible app Whitelisting in Security Center
-- [Preview]: Monitor possible network JIT access in Security Center
-- [Preview]: Monitor unaudited SQL database in Security Center
-- [Preview]: Monitor unencrypted SQL database in Security Center
-- [Preview]: Monitor unencrypted VM Disks in Security Center
-- [Preview]: Monitor unprotected network endpoints in Security Center
-- [Preview]: Monitor unprotected web application in Security Center
-- [Preview]: Monitor VM Vulnerabilities in Security Center
+- Preview: Apply Diagnostic Settings for Network Security Groups
+- Preview: Audit missing blob encryption for storage accounts
+- Preview: Automatic provisioning of security monitoring agent
+- Preview: Deploy default Microsoft IaaSAntimalware extension for Windows Server
+- Preview: Deploy network watcher when virtual networks are created
+- Preview: Monitor missing Endpoint Protection in Security Center
+- Preview: Monitor missing system updates in Security Center
+- Preview: Monitor OS vulnerabilities in Security Center
+- Preview: Monitor permissive network access in Security Center
+- Preview: Monitor possible app Whitelisting in Security Center
+- Preview: Monitor possible network JIT access in Security Center
+- Preview: Monitor unaudited SQL database in Security Center
+- Preview: Monitor unencrypted SQL database in Security Center
+- Preview: Monitor unencrypted VM Disks in Security Center
+- Preview: Monitor unprotected network endpoints in Security Center
+- Preview: Monitor unprotected web application in Security Center
+- Preview: Monitor VM Vulnerabilities in Security Center
 - Allow resource creation if 'department' tag set
 - Allow resource creation if 'environment' tag value in allowed values
 - Allow resource creation only in Asia data centers
