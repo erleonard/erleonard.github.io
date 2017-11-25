@@ -43,8 +43,8 @@ Verbose azure resources names make it easy to understand the purpose and workloa
 
 **Resource**|**Naming Covention**|**Examples**
 :-----:|:-----:|:-----:
-Resource Groups: |RG-Region-Type-Subtype/Workload|"- RG-CC-VM-Identity"
-Networking:| Vnet-Region-Type-SubType/Workload|"Vnet-CC-GW"
+Resource Groups: |RG-Region-Type-Subtype/Workload| RG-CC-VM-Identity, RG-CE-Network
+Networking:| Vnet-Region-Type-SubType/Workload| Vnet-CC-GW, ILB-CE-SQL
 Storage Accounts:|sa[company][department][region][Type][workload]|•sacticamsccvmsql.core.windows.net
 Virtual Machines:|[Region][Role][Number]|•ccdc01
 
