@@ -41,17 +41,12 @@ TLAB|SocialGaming|AwesomeService|Dev|TLAB satAZUREday AwesomeService Dev
 #### Resources
 Verbose azure resources names make it easy to understand the purpose and workload.
 
-**Resources**|**Examples**
-:-----:|:-----:
-Resource Groups: |•RG-CC-VM-Identity
-RG-Region-Type-Subtype/Workload|•RG-CE-Network
-Networking:|•Vnet-CC-GW
- Vnet-Region-Type-SubType/Workload|•ILB-CE-SQL
-Storage Accounts:|•sacticamsccvmsql.core.windows.net
-sa[company][department][region][Type][workload]| 
-* All lower case| 
-Virtual Machines:|•ccdc01
-[Region][Role][Number]| 
+**Resource**|**Naming Covention**|**Examples**
+:-----:|:-----:|:-----:
+Resource Groups: |RG-Region-Type-Subtype/Workload|"- RG-CC-VM-Identity"
+Networking:| Vnet-Region-Type-SubType/Workload|"Vnet-CC-GW"
+Storage Accounts:|sa[company][department][region][Type][workload]|•sacticamsccvmsql.core.windows.net
+Virtual Machines:|[Region][Role][Number]|•ccdc01
 
 ### Policies
 
