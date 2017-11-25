@@ -41,6 +41,18 @@ TLAB|SocialGaming|AwesomeService|Dev|TLAB satAZUREday AwesomeService Dev
 #### Resources
 Verbose azure resources names make it easy to understand the purpose and workload.
 
+**Resources**|**Examples**
+:-----:|:-----:
+Resource Groups: |•RG-CC-VM-Identity
+RG-Region-Type-Subtype/Workload|•RG-CE-Network
+Networking:|•Vnet-CC-GW
+ Vnet-Region-Type-SubType/Workload|•ILB-CE-SQL
+Storage Accounts:|•sacticamsccvmsql.core.windows.net
+sa[company][department][region][Type][workload]| 
+* All lower case| 
+Virtual Machines:|•ccdc01
+[Region][Role][Number]| 
+
 ### Policies
 
 Azure Policy is a service in Azure that you can use to create, assign and manage policy definitions.
