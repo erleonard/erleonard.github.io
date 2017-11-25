@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Azure DevTest Labs: Artifacts"
-date:   2017-11-20 14:17:12 -0500
+date:   2017-11-02 14:17:12 -0500
 categories:
   - Azure
 tags:
