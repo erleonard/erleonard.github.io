@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Azure DevOps Project"
-date:   2017-11-01 14:17:12 -0500
+date:   2017-11-25 14:17:12 -0500
 categories:
   - Azure
 tags:
