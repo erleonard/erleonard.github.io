@@ -23,16 +23,16 @@ Wow! How did I miss this.  Microsoft annouce on November 15th, 2017 the [Azure D
 1. Get start by creating [Azure DevOps Project](https://portal.azure.com/#create/Microsoft.AzureProject) now.
 2. Start fresh with a new applicant by selecting your application or bring your code. 
 
-![2017-11-25-PIC1](http://erleonard.me/assets/images/2017-11-25-PIC01.png)
+![2017-11-25-PIC1](https://erleonard.github.io/assets/images/2017-11-25-PIC01.png)
 
 3. In my case, I selected Static Website and click Next. On the next page, click Next.
 4. On the Select and Azure Service to deploy the application, select Web App for Containers or Web App and click Next. For this example, I selected Web App.
 5. On the Almost there! page fillout the required information.
-![2017-11-25-PIC2](http://erleonard.me/assets/images/2017-11-25-PIC02.png)
+![2017-11-25-PIC2](https://erleonard.github.io/assets/images/2017-11-25-PIC02.png)
 
 6. You are done!  When the deployment is complete, you should have a similar blade.
 
-![2017-11-25-PIC3](http://erleonard.me/assets/images/2017-11-25-PIC03.png)
+![2017-11-25-PIC3](https://erleonard.github.io/assets/images/2017-11-25-PIC03.png)
 
 
 Way cool!
