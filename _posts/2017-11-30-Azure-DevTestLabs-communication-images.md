@@ -32,10 +32,10 @@ To enable this feature:
 3. Under Virtual machine bases, select Custom Images.
 4. Click Add.
 5. On the Custom Image page, fill out the required fields:
-    Name: Name of the image.
-    Description: short description of the custom image and software.
-    OS Type: Windows or Linux
-    VHD: Select the appropriate custom image
-    Plan name: specify the name of the image
-    Plan offer: specify the product of the image
-    Plan publisher: specify the publisher of the image
+    - Name: Name of the image.
+    - Description: short description of the custom image and software.
+    - OS Type: Windows or Linux
+    - VHD: Select the appropriate custom image
+    - Plan name: specify the name of the image
+    - Plan offer: specify the product of the image
+    - Plan publisher: specify the publisher of the image
