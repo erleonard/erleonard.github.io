@@ -6,6 +6,8 @@ categories:
   - Azure
 tags:
   - Azure
+  - DevOps
+  - Visual Studio Code
 ---
 
 ![VSCode](https://erleonard.github.io/assets/images/2017/2017-12-10-VSCode.png)
