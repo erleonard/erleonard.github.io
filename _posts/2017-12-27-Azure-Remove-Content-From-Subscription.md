@@ -9,6 +9,6 @@ tags:
   - PowerShell
 ---
 
-![Pacman](https://erleonard.github.io/assets/images/2017/2017-12-27-Pacman.png =250x)
+![Pacman](https://erleonard.github.io/assets/images/2017/2017-12-27-Pacman.png){:height="50%" width="50%"}
 
 http://www.frankysnotes.com/2016/12/need-to-nuke-azure-subscription.html
