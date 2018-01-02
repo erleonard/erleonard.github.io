@@ -15,7 +15,7 @@ My friend Frank created this nifty little PowerShell script to delete all of the
 
 Frank’s script is fantastic and straightforward when you use your Azure subscription for demos or presentations and need to create and destroy frequently. I needed it to do a few things extra: I modified the script to provide the subscription name on execution and added a check to see if the resource group is locked. Resource locks are used to safeguard critical workloads that I am using and don't wish to delete.
 
-````PowerShell
+```PowerShell
 [CmdletBinding()]
     Param
     (
@@ -77,7 +77,7 @@ if($lastValidation.ToLower().contains("y")) {
 }else{
      Write-Host "Aborded. Nothing was deleted." -ForegroundColor Cyan
 }
-````
+```
 
 The code is also available on Github: [https://github.com/erleonard/AzurePowershell](https://github.com/erleonard/AzurePowershell)
 
