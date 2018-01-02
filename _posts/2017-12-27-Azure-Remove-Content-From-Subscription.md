@@ -11,10 +11,9 @@ tags:
 
 ![Pacman](https://erleonard.github.io/assets/images/2017/2017-12-27-Pacman.png){:height="50%" width="50%"}
 
-My friend Frank created this nifty little PowerShell script to delete all of the resource groups in a Azure subscription by selecting the right subscription name. Here is the original post: [http://www.frankysnotes.com/2016/12/need-to-nuke-azure-subscription.html](http://www.frankysnotes.com/2016/12/need-to-nuke-azure-subscription.html)
+My friend Frank created this nifty little PowerShell script to delete all of the Resource Groups in an Azure subscription by selecting the right subscription name. Here is the original post: [http://www.frankysnotes.com/2016/12/need-to-nuke-azure-subscription.html](http://www.frankysnotes.com/2016/12/need-to-nuke-azure-subscription.html)
 
-Frank's script is simple and amazing to use but I needed to do a few things extra. I modified the script to provide the subscription name on execution and added a check to see if the resource group is locked.
-
+Frank’s script is fantastic and straightforward to use, but I needed to do a few things extra. I modified the script to provide the subscription name on execution and added a check to see if the resource group is locked. Resource locks are used to safeguard critical workloads that I am using and don't wish to delete.
 
 ````Powershell
 [CmdletBinding()]
@@ -82,4 +81,5 @@ if($lastValidation.ToLower().contains("y")) {
 
 The code is also available on Github: [https://github.com/erleonard/AzurePowershell](https://github.com/erleonard/AzurePowershell)
 
+Here is an example of me running the script in the Azure Cloud Shell.
 ![Script](https://erleonard.github.io/assets/images/2017/2017-12-27-Script-in-Action.gif)
