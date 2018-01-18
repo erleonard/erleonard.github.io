@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Azure Arm Templates: Substring Function"
+title:  "Azure Resource Manager templates: Substring Function"
 date:   2018-01-17 14:17:12 -0500
 categories:
   - Azure
