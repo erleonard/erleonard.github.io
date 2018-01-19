@@ -10,7 +10,7 @@ tags:
   - DevOps
 ---
 
-This is a continuation of my previous article: [ARM Templates: Substring Function]http://erleonard.me/azure/AzureARMTemplates-SubstringFunction/)
+This is a continuation of my previous article: [ARM Templates: Substring Function](http://erleonard.me/azure/AzureARMTemplates-SubstringFunction/)
 
 Continuing on our simple scenario, we are building a single virtual network and create multiple sequential subnets for the deployment. Our second task is to assign each new subnet an address range.
 
