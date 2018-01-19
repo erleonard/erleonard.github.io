@@ -10,7 +10,7 @@ tags:
   - DevOps
 ---
 
-This is a continuation of my previous article: 
+This is a continuation of my previous article: [ARM Templates: Substring Function]http://erleonard.me/azure/AzureARMTemplates-SubstringFunction/)
 
 Continuing on our simple scenario, we building a single virtual network and the requirement is to create multiple sequential subnets for my deployment. Our second task is to assign each new subnet an address range.
 
@@ -65,6 +65,6 @@ This example will split the subnet address into an array and we will use that in
 }
 ```
 
-In the next upcoming articles, we will continue to use our scenario to deploy a virtual network with multiple subnets and use that to build a dynamic ARM template for our deployment.
+
 
 The code is also available on Github: [https://github.com/erleonard/AzureARMTemplates/blob/master/Functions/split.json](https://github.com/erleonard/AzureARMTemplates/blob/master/Functions/split.json)
