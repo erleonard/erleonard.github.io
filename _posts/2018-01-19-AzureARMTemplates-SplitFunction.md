@@ -10,7 +10,7 @@ tags:
   - DevOps
 ---
 
-This is a continuation of my previous article: INSERT
+This is a continuation of my previous article: 
 
 Continuing on our simple scenario, we building a single virtual network and the requirement is to create multiple sequential subnets for my deployment. Our second task is to assign each new subnet an address range.
 
@@ -40,6 +40,8 @@ Here is an sample of a vNet that contains three equal subnets. To accomplish thi
 ```
 To keep our template as dynamic as possible, we can use the **split function** to extract the address prefix and get each octet to then increment the count on the third octet to create our new subnets.
 
+This example will split the subnet address into an array and we will use that information to create a different subnet address of 10.2.1.0/24
+
 ```json
 {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
@@ -62,3 +64,7 @@ To keep our template as dynamic as possible, we can use the **split function** t
     }
 }
 ```
+
+In the next upcoming articles, we will continue to use our scenario to deploy a virtual network with multiple subnets and use that to build a dynamic ARM template for our deployment.
+
+The code is also available on Github: [https://github.com/erleonard/AzureARMTemplates/blob/master/Functions/split.json](https://github.com/erleonard/AzureARMTemplates/blob/master/Functions/split.json)
