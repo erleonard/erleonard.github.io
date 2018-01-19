@@ -10,7 +10,7 @@ tags:
   - DevOps
 ---
 
-Working with Functions in Azure ARM templates can be challenging at times. In my scenario, I'm building a single virtual network and the requirement is to create multiple sequential subnets for my deployment. My first task is to remove the zero from "subnet0" so that I can start incrementing the count.
+Working with Functions in Azure ARM templates can be challenging at times. In this scenario, I'm building a single virtual network and the requirement is to create multiple sequential subnets for the deployment. The first task is to remove the zero from "subnet0" so that I can start incrementing the count.
 
 To accomplish this, I need to use the substring function to set my starting character position and determine the length to capture. In this case, I want to capture the word "subnet", my starting character position is 0, and the length of the work is 6
 
