@@ -10,9 +10,20 @@ tags:
   - DevOps
 ---
 
-Working with Functions in Azure ARM templates can be challenging at times. In this scenario, I'm building a single virtual network and the requirement is to create multiple sequential subnets for the deployment. The first task is to remove the zero from "subnet0" so that I can start incrementing the count.
+Azure ARM templates allow you to deploy your application and re-deploy it at every stage of your application lifecycle. When you are deploying your application, you provide parameters to your deployment with your specific requirements and sometimes the deployment fails because it requires a unique name or other times you need your template to have some flexibility.
 
-To accomplish this, I need to use the substring function to set my starting character position and determine the length to capture. In this case, I want to capture the word "subnet", my starting character position is 0, and the length of the work is 6
+In your template, you can include Azure ARM template resource functions to add some flexibility to your JSON file. There are seven categories of resource functions: Array and object, Comparison, Deployment value, Logical, Numeric, Resource and String functions. 
+
+We will be working with the string and numeric functions to manipulate the information provided into strings we desire. To accomplish our goal, we will be using: substring, length, concat, and sub.
+
+- Substring: contains a subset of the string provided
+- Length: calculates the length of the string
+- Concat: Combines multiple string values into a single concatenated string
+- Sub: Substracts two integers
+
+Our scenario for the blog series, we need to deploy a single virtual network (vNet) and the requirement is to create multiple sequential subnets for the deployment. The first task is to remove the zero from “subnet0” so that I can start incrementing the count.
+
+To accomplish this, we need to use the substring function to set my starting character position and determine the length to capture. In this case, we want to capture the word "subnet" and set the starting character position to 0, and the length of the word is 6.
 
 Here is a sample ARM template that will output the result we need.
 
