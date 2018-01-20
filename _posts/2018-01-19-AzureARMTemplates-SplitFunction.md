@@ -41,7 +41,7 @@ Here is a sample of a vNet that contains three equal subnets. To accomplish this
     }
 ]
 ```
-To keep our template as dynamic as possible, we can use the **split function** to extract the address prefix and get each octet. This will allow you to then increment the count on the third octet to create new subnets.
+To give our template some flexibility, we can use the **split function** to extract the address prefix and get each octet. This will allow you to then increment the count on the third octet to create new subnets.
 
 The example below will split the subnet address into an array and we will use that information to create a different subnet address of 10.2.1.0/24
 
