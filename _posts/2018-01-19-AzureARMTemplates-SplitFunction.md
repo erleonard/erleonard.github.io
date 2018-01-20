@@ -10,9 +10,12 @@ tags:
   - DevOps
 ---
 
-This is a continuation of my previous article: [ARM Templates: Substring Function](http://erleonard.me/azure/AzureARMTemplates-SubstringFunction/)
+This post is part of a series. The previous posts in the series can be found here: 
+ - [ARM Templates: Substring Function](http://erleonard.me/azure/AzureARMTemplates-SubstringFunction/)
 
-Continuing on our simple scenario, we are building a single virtual network and create multiple sequential subnets for the deployment. Our second task is to assign each new subnet an address range.
+In the previous blog post, we worked with the parameter subnetName to manipulate the string to remove the 0 at the end and creating a sequential count for each additional subnet. We used the following functions: substring, length, concat, and sub.
+
+Continuing with our simple scenario, we are building a single virtual network and create multiple sequential subnets for the deployment. Our second task is to assign each new subnet a unique address range.
 
 Here is a sample of a vNet that contains three equal subnets. To accomplish this is a template we would require a parameter for each subnet address prefix.
 
