@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Azure Resource Manager templates: Split Function"
+title:  "Azure Resource Manager Templates: Split Function"
 date:   2018-01-19 14:17:12 -0500
 categories:
   - Azure
