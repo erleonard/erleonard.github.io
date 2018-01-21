@@ -41,6 +41,7 @@ Here is a sample of a vNet that contains three equal subnets. To accomplish this
     }
 ]
 ```
+
 To give our template some flexibility, we can use the **split function** to extract the address prefix and get each octet. This will allow you to then increment the count on the third octet to create new subnets.
 
 The example below will split the subnet address into an array and we will use that information to create a different subnet address of 10.2.1.0/24
@@ -67,6 +68,8 @@ The example below will split the subnet address into an array and we will use th
     }
 }
 ```
+Result: **Array with the values of: "10","2","0","0"**
+
 The code is also available on Github: [https://github.com/erleonard/AzureARMTemplates/blob/master/Functions/split.json](https://github.com/erleonard/AzureARMTemplates/blob/master/Functions/split.json)
 
 In the upcoming and final article, we will combine all that we have learned from using **functions** and create our deployment.

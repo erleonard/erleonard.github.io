@@ -10,7 +10,7 @@ tags:
   - DevOps
 ---
 
-Azure ARM templates allow you to deploy your application and re-deploy it at every stage of your application lifecycle. When you are deploying your application, you provide parameters to your deployment with your specific requirements and sometimes the deployment fails because it requires a unique name or other times you need your template to have some flexibility.
+Azure ARM templates allow you to deploy your application and redeploy it at every stage of your application lifecycle. When you are deploying your application, you provide parameters to your deployment with your specific requirements and sometimes the deployment fails because it requires a unique name or other times you need your template to have some flexibility.
 
 In your template, you can include Azure ARM template resource functions to add some flexibility to your JSON file. There are seven categories of resource functions: Array and object, Comparison, Deployment value, Logical, Numeric, Resource and String functions. 
 
