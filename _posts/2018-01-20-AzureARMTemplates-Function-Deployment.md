@@ -30,6 +30,47 @@ In our scenario, we will set the CopyIndex value at 1.
 
 In conjuction with CopyIndex we need to use the **Copy** element to specify the number of iterations (count) and a name for this loop (name).
 
+The following example, we set the copyindex() with a starting value of 1 and we have set to the copy element with the required name and count.
+
+```json
+{
+    "apiVersion": "2017-08-01",
+    "type": "Microsoft.Network/virtualNetworks/subnets",
+    "name": "[concat(parameters('name'),'/',variables('subnetModName'),copyindex(1))]",
+    "location": "[resourceGroup().location]",
+    "properties": {
+        "addressPrefix": "[concat(variables('SeperatedValues')[0],'.',variables('SeperatedValues')[1],'.', copyIndex(1),'.0/24')]"
+    },
+    "copy": {
+        "name": "subnetCount",
+        "count": "[parameters('subnetCount')]"
+    },
+    "dependsOn": [
+        "[concat('Microsoft.Network/virtualNetworks/', parameters('name'))]"
+    ]
+}
+```
+Result: **Failure**
+
+Deploying the above template fails as it's trying to deploy the subnets in parallel and it does not have the necessary information.
+![DeploymentFailure](https://erleonard.github.io/assets/images/2018/2018-01-20-DeploymentFailure.png)
+
+For the template deployment to succeed we need to modify the **Copy** element to instruct the template not to do it in parallel but serially and set the batchSize to the number of instances to deploy at a time.
+
+For example, to serially deploy a resource on at a time, use:
+```json
+"copy": {
+        "name": "subnetCount",
+        "count": "[parameters('subnetCount')]",
+        "mode": "Serial",
+        "batchSize": 1
+    }
+```
+
+Combining everything we have looked at in this series we will be able to deploy our scenario that we have been using to build a single virtual network and create multiple sequential subnets.
+
+Here is the completed template:
+
 ```json
 {
     "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
@@ -114,3 +155,5 @@ In conjuction with CopyIndex we need to use the **Copy** element to specify the 
         ]
     }
 ```
+
+The code is also available on Github: [https://github.com/erleonard/AzureARMTemplates/blob/master/Functions/split.json](https://github.com/erleonard/AzureARMTemplates/blob/master/Functions/split.json)
