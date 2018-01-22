@@ -18,9 +18,9 @@ This post is part of a series. The previous posts in the series can be found her
 
 The second article, we manipulated the addressPrefix parameter to extract the subnet address and get each octet. We used the split function to achieve this.
 
-Continuing with our simple scenario, we are building a single virtual network and create multiple sequential subnets for the deployment. Our final task will be to combine everything together and deploy our vNet.
+Continuing with our simple scenario, we are building a single virtual network and create multiple sequential subnets for the deployment. Our final task will be to combine everything and deploy our vNet.
 
-To assemble our template, we need to use another numeric function, **CopyIndex**. When CopyIndex is used it returns the current iteration in the loop. The iteration value starts at zero. You can use an integer as a parameter to set the starting value.
+To assemble our template, we need to use another numeric function, **CopyIndex**. When CopyIndex is used it returns the current iteration of the loop. The iteration value starts at zero. You can use an integer as a parameter to set the starting value.
 
 In our scenario, we will set the CopyIndex value at 1.
 
@@ -28,9 +28,9 @@ In our scenario, we will set the CopyIndex value at 1.
 "addressPrefix": "[concat(variables('SeperatedValues')[0],'.',variables('SeperatedValues')[1],'.', copyIndex(1),'.0/24')]"
 ```
 
-In conjuction with CopyIndex we need to use the **Copy** element to specify the number of iterations (count) and a name for this loop (name).
+In conjunction  with CopyIndex, we need to use the **Copy** element to specify the number of iterations (count) and a name for this loop (name).
 
-The following example, we set the copyindex() with a starting value of 1 and we have set to the copy element with the required name and count.
+The following example, we set the copyindex() with a starting value of 1 and we have set the Copy element with the required name and count.
 
 ```json
 {
@@ -156,4 +156,4 @@ Here is the completed template:
     }
 ```
 
-The code is also available on Github: [https://github.com/erleonard/AzureARMTemplates/blob/master/Functions/split.json](https://github.com/erleonard/AzureARMTemplates/blob/master/Functions/split.json)
+The code is also available on Github: [https://github.com/erleonard/AzureARMTemplates/blob/master/Networking/spoke.json](https://github.com/erleonard/AzureARMTemplates/blob/master/Networking/spoke.json)
