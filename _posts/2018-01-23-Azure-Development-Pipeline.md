@@ -14,28 +14,28 @@ These days I live in Visual Studio Code (VSCode), it's the place where I go to w
 
 Developing and deploying Azure ARM templates can be accomplished on your workstation, but you don’t share your code with the community. I thought I would share how I work in VSCode with GitHub and Visual Studio Team Services (VSTS).
 
-The three tools mentioned above working together about allows me to have source control, code versioning, testing and debugging. It’s my way of doing Infrastructure-As-Code.
+The three tools mentioned above working together about allows me to have source control, code versioning, testing and debugging.
 
 Here’s my setup:
 
 ### Visual Studio Code
-VSCode is an open source code editor that includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. It’s pure awesomeness. You can download here: https://code.visualstudio.com/
+VSCode is an open source code editor that includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. It’s pure awesomeness. You can download here: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 I also have the following extensions installed in VSCode:
-1.	Azure Extension Pack https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-azureextensionpack
-2.	Powershell https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell
+1.	[Azure Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-azureextensionpack)
+2.	[Powershell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 
 ### GitHub
-GitHub allows you to version your code and allows you to collaborate with others using features such as bug tracking, feature requests, task management, and wikis for every project. You can create a free account here: https://github.com
+GitHub allows you to version your code and allows you to collaborate with others using features such as bug tracking, feature requests, task management, and wikis for every project. You can create a free account here: [https://github.com](https://github.com)
 
-My GitHub repositories contain all the Azure ARM templates that I share. It is also integrated with Visual Studio Code to allow me to manage my code. All my public repositories can are found here: https://github.com/erleonard
+My GitHub repositories contain all the Azure ARM templates that I share. It is also integrated with Visual Studio Code to allow me to manage my code. All my public repositories can are found here: [https://github.com/erleonard](https://github.com/erleonard)
 
 As a side note, GitHub allows you to host your website for you or your projects. I created a one-day conference called satAzureday, and the site was created in its own GitHub repository and hosted by GitHub Pages.
 
 ### Visual Studio Team Services
 So we have covered the code editor, how the code is sourced controlled and versioned but what about testing and debugging; enter Visual Studio Team Services. VSTS allows for Continous Integration (CI) so that every time I commit code to my repository in GitHub, it will automatically build and test my code.
 Here are the steps to accomplish this.
-1.	If you don’t have a VSTS account, you can create one here: https://www.visualstudio.com/team-services/
+1.	If you don’t have a VSTS account, you can create one here: [https://www.visualstudio.com/team-services](https://www.visualstudio.com/team-services)
 2.	Create a new Project and ensure version control is set to Git.
 3.	Click Build and Release, and then click Builds.
 4.	Click “+ New definition”.
