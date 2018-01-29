@@ -44,6 +44,7 @@ Here are the steps to accomplish this.
 7.	Click the Get sources task and select GitHub.
 8.	Provide a connection name and then click the Authorize using OAuth button.
 9.	A new window will popup and sign-in to GitHub and authorize access to your VSTS account.
+![Sample](https://erleonard.github.io/assets/images/2018/2018-01-23-GitHub-Authorize.png)
 10.	 Once your GitHub account is authorized, select your repository.
 11.	 Click on the + sign in Phase 1 to add a Task.
 12.	 In the Add Task window, search for NPM and click Add.
@@ -53,20 +54,20 @@ Here are the steps to accomplish this.
   * Command and arguments: install jsonlint -g
 14.	 Add another task, search for Command line and click Add.
 15.	 This task we will run jsonLint against the ARM template.
-a.	Display name: Run jsonLint on ARM template
-b.	Tool: jsonlint
-c.	Arguments: azuredeploy.json
+  * Display name: Run jsonLint on ARM template
+  * Tool: jsonlint
+  * Arguments: azuredeploy.json
 16.	Optional, you can add another task to run jsonLint against the parameter file for your ARM template.
 17.	Add another task, search for Azure Resource Group Deployment and click Add.
 18.	This task will validate the resources provided in your template to deploy into Azure.
-a.	Display name: Validate Deployment of ARM Template
-b.	Subscription: Select the subscription you wish to do your deployment to
-c.	Action: Create or Update Resource Group
-d.	Resource Group: jsonDeploy
-e.	Location: Select your desired location
-f.	Template: Select the ARM template
-g.	(Optional) Template Parameters: Select the parameter file for the ARM template
-h.	Deployment Mode: Validate Only
+  * Display name: Validate Deployment of ARM Template
+  * Subscription: Select the subscription you wish to do your deployment to
+  * Action: Create or Update Resource Group
+  * Resource Group: jsonDeploy
+  * Location: Select your desired location
+  * Template: Select the ARM template
+  * (Optional) Template Parameters: Select the parameter file for the ARM template
+  * Deployment Mode: Validate Only
 19.	Click on Save & Queue and select Save.
 
 The last part is that we need to enable Continous Integration to automatically test the ARM template every time there is a commit to the repository.
@@ -76,10 +77,4 @@ The last part is that we need to enable Continous Integration to automatically t
 
 The next time code is committed to the repository, VSTS will detect the commit and run the requested build tasks to validate and debug the ARM template.
 
-
-Build
-  empty process
-    name
-    hosted VS2017
-
-    Quick tip, add user to subscription
+![Sample](https://erleonard.github.io/assets/images/2018/2018-01-23-CI-Completed.png)
