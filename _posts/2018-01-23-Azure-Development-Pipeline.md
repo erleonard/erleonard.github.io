@@ -52,6 +52,7 @@ Here are the steps to accomplish this.
   *	Name: npm install jsonLint
   * Command: Custom
   * Command and arguments: install jsonlint -g
+![Sample](https://erleonard.github.io/assets/images/2018/2018-01-23-Install-jsonLint.png)
 14.	 Add another task, search for Command line and click Add.
 15.	 This task we will run jsonLint against the ARM template.
   * Display name: Run jsonLint on ARM template
@@ -68,6 +69,8 @@ Here are the steps to accomplish this.
   * Template: Select the ARM template
   * (Optional) Template Parameters: Select the parameter file for the ARM template
   * Deployment Mode: Validate Only
+![Sample](https://erleonard.github.io/assets/images/2018/2018-01-23-ARM-Deploy-Validate.png)
+
 19.	Click on Save & Queue and select Save.
 
 The last part is that we need to enable Continous Integration to automatically test the ARM template every time there is a commit to the repository.
