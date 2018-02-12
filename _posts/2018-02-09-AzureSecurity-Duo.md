@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Secure your IaaS VMs with Duo Security"
-date:   2018-01-23 14:17:12 -0500
+date:   2018-02-09 14:17:12 -0500
 categories:
   - Azure
 tags:
