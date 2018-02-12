@@ -31,4 +31,4 @@ The setup of Duo Authentication was extremely easy and was accomplished in 5 eas
 
 **If you want to install the package silently from the command line of powershell, you can use the following command:** duo-win-login-latest.exe /S /V" /qn IKEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" SKEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" HOST="api-XXXXXX.duosecurity.com" AUTOPUSH="#1" FAILOPEN="#0" RDPONLY="#0""
 
-Once the agent is installed on your server, you simply logout and when you re-login you will be prompted by Duo Security to atthenticate with your phone.
+Once the agent is installed on your server, you simply logout and when you re-login you will be prompted by Duo Security to authenticate with your phone.
