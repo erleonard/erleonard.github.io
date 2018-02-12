@@ -13,9 +13,9 @@ tags:
 Deploying a developer or jump VM in the cloud can be easily done but once you add a public IP address to your VM you are exposed. Attackers consistently scan cloud providers IP ranges to locate machines with exposed management end points. Once detected, attackers will try to brute force and exploit these end points, taking advantage of new machines with weak passwords and/or bad configurations.
 
 As an example, I deployed a VM and left it running for 24 hours and had 321 failed login attempts.
-
+<p align="center">
 ![FailedLogin](https://erleonard.github.io/assets/images/2018/2018-02-09-Failed-Logins.PNG)
-
+</p>
 Using Duo Security, I can add two-factor authentication to all Windows logins via local console or RDP. Duo provides a free version that supports up to 10 users. Check out the plans comparison table to find out which version is right for you: [https://duo.com/pricing](https://duo.com/pricing)
 
 The setup of Duo Authentication was extremely easy and was accomplished in 5 easy steps:
