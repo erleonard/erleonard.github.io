@@ -21,9 +21,10 @@ Using Duo Security, I can add two-factor authentication to all Windows login via
 The setup of Duo Authentication was extremely easy and was accomplished in 5 easy steps:
 1.	Sign up for a Duo account. https://signup.duosecurity.com/
 2.	Log in to the Duo Admin Panel and navigate to Applications.
-3.	Click Protect an Application and locate Microsoft RDP in the applications list. Click Protect this Application to get your integration key, secret key, and API hostname. (See Getting Started for help.)
-
+3.	Click Protect an Application and locate Microsoft RDP in the applications list. 
 ![FailedLogin](https://erleonard.github.io/assets/images/2018/2018-02-09-Duo-ProtectApplication.PNG)
+
+4. Click Protect this Application to get your integration key, secret key, and API hostname.
 ![FailedLogin](https://erleonard.github.io/assets/images/2018/2018-02-09-Duo-ProtectApplicationRDP.PNG)
 
 5.	[Download the Duo Authentication for Windows Logon Installer Package.](https://dl.duosecurity.com/duo-win-login-latest.exe)
