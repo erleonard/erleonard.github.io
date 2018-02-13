@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Deploy Windows VM with Duo Authentication"
+title:  "Azure ARM Template Deployment with Duo Authentication"
 date:   2018-02-09 14:17:12 -0500
 categories:
   - Azure
