@@ -19,7 +19,7 @@ To make the deployment work, you will need the integration key (IKEY), secret ke
 
 Here is a sample deployment for PowerShell:
 
-```PowerShell
+```powershell
 $parameters = @{}
 $parameters.Add("IKEY", "DIXXXXXXXXXXXXXXXXXXXX")
 $parameters.Add("SKEY","xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
@@ -29,7 +29,7 @@ New-AzureRmResourceGroupDeployment -Name vmDeployment -ResourceGroupName $Resour
 ```
 
 **ARM Template**
- ```JSON
+```json
 {
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
@@ -270,7 +270,7 @@ New-AzureRmResourceGroupDeployment -Name vmDeployment -ResourceGroupName $Resour
     }
   }
 }
- ```
+```
 
  Adding Duo Security to your base template doesn't take long to complete but by adding multi-factor authentication to your VM it makes it that much more secure.
 
