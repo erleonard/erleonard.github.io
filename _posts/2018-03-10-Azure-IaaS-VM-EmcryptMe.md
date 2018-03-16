@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "ARM Templates: Encrypt VMs with Azure Disk Encryption"
-date:   2018-03-13 14:17:12 -0500
+date:   2018-03-10 14:17:12 -0500
 categories:
   - Azure
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "ARM Templates: VPN Gateway"
-date:   2018-02-24 14:17:12 -0500
+date:   2018-03-03 14:17:12 -0500
 categories:
   - Azure
 tags:
