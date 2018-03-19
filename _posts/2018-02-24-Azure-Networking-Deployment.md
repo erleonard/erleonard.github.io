@@ -11,7 +11,7 @@ tags:
 ---
 
 
-It's been a very busy last few months for me with work and doing lots of deployments in Azure.  What I like doing the most is writting ARM templates for each deployment as I know the next day or sometime a little later that I will need to perform a deployment that is very simillar.
+It’s been a very busy last few months for me with work and doing lots of deployments in Azure. What I like doing the most is writing ARM templates for each deployment as I know the next day or sometimes a little later that I will need to perform a deployment that is very similar.
 
 A great example is deploying a virtual network for the DMZ, in most cases it's always a public facing resource with a restricted backend that holds a database(s) and/or storage.
 
