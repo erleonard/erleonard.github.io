@@ -16,13 +16,14 @@ It’s been a very busy last few months for me with work and doing lots of deplo
 A great example is deploying a virtual network for the DMZ, in most cases, it’s always a public-facing resource with a restricted backend that holds a database(s) and/or storage.
 
 Usually to deploy a virtual network you need to figure out a few things first:
- 1. Which region will the virtual network be created?
-  2. How large does my address space need to be?
-  3. How many subnets to I need to create?
-  4. Do I need to connect to on-premise resources?
-  3. How many resources will be used on the virtual network?
+1.	Which region will you create the virtual network?
+2.	How large does my address space need to be?
+3.	How many subnets to I need to create?
+4.	Do I need to connect to on-premise resources?
+5.	How many resources will be used on the virtual network?
 
-Answering these questions will help you create your ARM template and most of all help you figure out what parameters you template needs. In the example below, i'm create a vNet with a large address space of 172.16.0.0/16 and creating two subnets. The subnets are called Frontend and Backend and this will be used to segment my web services and my sql database.
+Answering these questions will help you create your ARM template, and most of all help you figure out what parameters you template needs. In the example below, I'm creating a vNet with a large address space of 172.16.0.0/16 and creating two subnets. The subnets are called Frontend and Backend, and this will be used to segment my web services and my SQL database.
+
 
 ``` json
 {
