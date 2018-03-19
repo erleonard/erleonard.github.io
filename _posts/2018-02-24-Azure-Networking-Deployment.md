@@ -103,7 +103,7 @@ Awesome you have a virtual network, but it’s pretty boring and doesn’t have 
         }
 ```
 
-The NSG's are created by not applied to your virtual network and we are missing the service endpoints, let's configure the virtual network first:
+The NSG's are created by not applied to your virtual network, and we are missing the service endpoints, let's configure the virtual network first:
 
 ```json
 {
@@ -216,6 +216,6 @@ Last part is to associate the NSG and service endpoints to there respective subn
             ]
         }
 ```
-There you have it, a simple virtual network deployment with 2 subnets with NSG's and service endpoint enabled.
+There you have it, a simple virtual network deployment with two subnets with NSG's and service endpoint enabled.
 
 As always the code is also available on Github: [https://github.com/erleonard/AzureARMTemplates/blob/master/Networking/spoke.json](https://github.com/erleonard/AzureARMTemplates/blob/master/Networking/spoke.json)
