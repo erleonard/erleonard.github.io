@@ -76,7 +76,7 @@ Answering these questions will help you create your ARM template, and most of al
         }
 ```
 
-Awesome you have a virtual network but it's pretty boring and doesn't have anything in it. Well let's add a Network Security Group (NSG) to create rules to allow or deny network traffic based on the subnet, connected devices or public ip address resource that is attached to a VM. As well since we are already doing this, I'm going to add service endpoint to my backend subnet to ensure my Azure storage account and Azure SQL database is limited to my virtual network.
+Awesome you have a virtual network, but it’s pretty boring and doesn’t have anything in it. Well, let’s add a Network Security Group (NSG) to create rules to allow or deny network traffic based on the subnet, connected devices or public IP address resource that is attached to a VM. As well since we are already doing this, I’m going to add service endpoint to my backend subnet to ensure my Azure storage account and Azure SQL database is limited to my virtual network.
 
 ``` json
  {
