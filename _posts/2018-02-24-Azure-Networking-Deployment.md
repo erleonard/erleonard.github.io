@@ -13,7 +13,7 @@ tags:
 
 It’s been a very busy last few months for me with work and doing lots of deployments in Azure. What I like doing the most is writing ARM templates for each deployment as I know the next day or sometimes a little later that I will need to perform a deployment that is very similar.
 
-A great example is deploying a virtual network for the DMZ, in most cases it's always a public facing resource with a restricted backend that holds a database(s) and/or storage.
+A great example is deploying a virtual network for the DMZ, in most cases, it’s always a public-facing resource with a restricted backend that holds a database(s) and/or storage.
 
 Usually to deploy a virtual network you need to figure out a few things first:
  1. Which region will the virtual network be created?
