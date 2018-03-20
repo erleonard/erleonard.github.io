@@ -13,11 +13,9 @@ tags:
 This post is part of a series. The previous posts in the series can be found here:
 - ARM Templates: Networking
 
-In this post I wanted to talk about create a Point-to-Site VPN connection. This is something that I do often when a customer wants to create a dev/test environment without exposing it to the outside world. A point-to-site connection is simply a vpn connection from a device to your Azure network gateway.
+In this post, I wanted to talk about creating a Point-to-Site VPN connection. This is something that I do often when a customer wants to create a dev/test environment without exposing it to the outside world. A point-to-site connection is simply a VPN connection from a device to your Azure network gateway.
 
-<--insert image-->
-
-Building on the previous Azure ARM template, I have added the Gateway Subnet that will contain the public ip address needed to configure the Azure Virtual Network Gateway.
+Building on the previous Azure ARM template, I have added the Gateway Subnet that will contain the public IP address needed to configure the Azure Virtual Network Gateway.
 
 ``` json
 {
@@ -98,7 +96,7 @@ Building on the previous Azure ARM template, I have added the Gateway Subnet tha
         }
 ```
 
-Next we need to add a Public IP Address resource to our template that will be used to connect to the Virtual Network Gateway.
+Next, we need to add a Public IP Address resource to our template that will be used to connect to the Virtual Network Gateway.
 
 ``` json
 {
@@ -111,7 +109,7 @@ Next we need to add a Public IP Address resource to our template that will be us
 }
 ```
 
-Lastly we need to add the Virtual Network Gateway to the template.
+Lastly, we need to add the Virtual Network Gateway to the template.
 
 ``` json
 {
@@ -147,11 +145,12 @@ Lastly we need to add the Virtual Network Gateway to the template.
 }
 ```
 
-Once you have completed building your template to deply a Point-to-Site VPN gateway we need to configure the certificates for the authentication.
+Once you have completed building your template to deploy a Point-to-Site VPN gateway we need to configure the certificates for the authentication.
 
 In the following steps, you will create a root certificate for the Azure Virtual Network Gateway and a client certificate to be installed on each machine.
 
 To complete the steps, you will need to do this on a Windows 10 workstation or Windows Server 2016.
+
 
 ``` powershell
 

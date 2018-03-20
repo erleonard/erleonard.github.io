@@ -31,7 +31,7 @@ $AADappId = $AADapp.ApplicationId
 $AADappSPN = New-AzureRmADServicePrincipal -ApplicationId $AADappId
 ```
 
-**Create and configure Azure Keyvault**
+**Create and Configure Azure Keyvault**
 
 ``` powershell
 #Create Key Vault
