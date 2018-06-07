@@ -45,20 +45,20 @@ Kubernetes architecture was covered at length, and we discussed the different co
 
 ![K8sArchitecture](../assets/images/2018/2018-06-08-K8s-arch.png)
 
-Afterwards we went into how Kubernetes fits into Azure and how we can use it.
+Afterwards, we went into how Kubernetes fits into Azure and how we can use it.
 
 Azure Container instance (ACI) is a simple way of deploying a container in Azure. 
 
 Azure Container Registry (ACR) allows you to build & store your application container images in a private registry.
 
 ## Monitoring Containers
-By midafternoon we got to monitoring containers and really geek out on this part of the day.  I got the oppoutunity to work with helm (package manager) to install Prometheus (monitoing and alerting) and Grafana (Analytics platform).
+By midafternoon we got to monitoring containers and geek out on this part of the day.  I got the opportunity to work with helm (package manager) to install Prometheus (monitoring and alerting) and Grafana (Analytics platform).
 
-Prometheus was installed easily into my environment but to be fair, they provided the configuation file for the intall.
+Prometheus was installed easily into my environment but to be fair; they provided the configuration file for the install.
 
 ![Prometheus](../assets/images/2018/2018-06-06-Prometheus.png)
 
-Next up was Grafana, this tool was easy to install but I lost some time configuring Grafana.  I think I lost 20 minutes trying to figure out why I couldn't get Grafana to go get the data from Prometheus, only to realize that I forgot to select the Type. #Facepalm
+Next up was Grafana, this tool was easy to install, but I lost some time configuring Grafana.  I think I lost 20 minutes trying to figure out why I couldn't get Grafana to get the data from Prometheus, only to realize that I forgot to select the Type. #Facepalm
 
 ![GrafanaDataSource](../assets/images/2018/2018-06-06-Grafana-DataSource.png)
 
@@ -66,7 +66,7 @@ After configuring the data source, I added my dashboard to Grafana and I was don
 
 ![GrafanaDashboard](../assets/images/2018/2018-06-06-Grafana.png)
 
-The day finished off by discussing Storage, Online Service Broker for Azure and upgrading Kubernetes clusters. Which at that point was way to much information for me and will need some time to review and learn some more.
+The day finished off by discussing Storage, Online Service Broker for Azure and upgrading Kubernetes clusters. Which at that point was way too much information for me and will need some time to review and learn some more.
 
 Today was an excellent day and couldn't have been possible without our presenters today Kevin Harris (@KevinBHar) and Ray Kao (@raykao ) and Mathieu Benoit. They are all excellent speakers and really know what they are talking about.
 
