@@ -16,14 +16,14 @@ Renaming your Azure subscriptions can be very handy when working with multiple s
 
 1. Select your subscription from the [subscriptions blade](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) 
 <br>
-![screenshot_00](https://erleonard.github.io/assets/images/2017/subscriptionrename-02.PNG)
+![screenshot_00]({{ site.url }}{{ site.baseurl }}/assets/images/2017/subscriptionrename-02.PNG)
 <br>
 2. Click on your Subscription Name
 <br>
-![screenshot_01](https://erleonard.github.io/assets/images/2017/subscriptionrename-03.PNG)
+![screenshot_01]({{ site.url }}{{ site.baseurl }}/assets/images/2017/subscriptionrename-03.PNG)
 <br>
 3. Rename your subscription and click **Save**.
 <br>
-![screenshot_01](https://erleonard.github.io/assets/images/2017/subscriptionrename-05.PNG)
+![screenshot_01]({{ site.url }}{{ site.baseurl }}/assets/images/2017/subscriptionrename-05.PNG)
 
 Once the change is complete, it can take up to 10 minutes for the portal to reflect the changes.

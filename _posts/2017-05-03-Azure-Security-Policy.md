@@ -49,4 +49,4 @@ Verify the Azure security policy assignment:
 The **Get-AzureRMLog** will contain successful or failed messages about the Azure security policy.
 Here is an example of a deny when creating a VM:
 
-![screenshot_00](https://erleonard.github.io/assets/images/2017/2017-05-03-Get-AzureRMLog.PNG)
+![screenshot_00]({{ site.url }}{{ site.baseurl }}/assets/images/2017/2017-05-03-Get-AzureRMLog.PNG)

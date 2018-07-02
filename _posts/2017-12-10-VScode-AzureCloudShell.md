@@ -10,7 +10,7 @@ tags:
   - Visual Studio Code
 ---
 
-![VSCode](https://erleonard.github.io/assets/images/2017/2017-12-10-VSCode.png)
+![VSCode]({{ site.url }}{{ site.baseurl }}/assets/images/2017/2017-12-10-VSCode.png)
 
 Over the course of the last year, I have switched over to Visual Studio Code as my defacto code editor.  It allows me to create PowerShell scripts, work with my JSON templates for Azure, do some cookbook development with Chef and most of all generate blog articles with markdown.
 
@@ -32,11 +32,11 @@ The article shows how to open Bash in Cloud Shell, but I wanted to open Cloud Sh
 2. Access the Command Palette (Shift-Ctrl-P or click View in the toolbar)
 3. Type: Azure Sign In
 4. You will see a popup that you need to authenticate your device. Click Copy & Open.
-![VSCode](https://erleonard.github.io/assets/images/2017/2017-12-10-VSCodeSetup1.png)
+![VSCode]({{ site.url }}{{ site.baseurl }}/assets/images/2017/2017-12-10-VSCodeSetup1.png)
 5. The Device Login page should launch in your browser, the code is in your clipboard and simply paste the code in the textbox.
-![VSCode](https://erleonard.github.io/assets/images/2017/2017-12-10-VSCodeSetup2.png)
+![VSCode]({{ site.url }}{{ site.baseurl }}/assets/images/2017/2017-12-10-VSCodeSetup2.png)
 6. Click Continue, follow the steps to authenticate your Azure account, and your device will be authenticated.
-![VSCode](https://erleonard.github.io/assets/images/2017/2017-12-10-VSCodeSetup3.png)
+![VSCode]({{ site.url }}{{ site.baseurl }}/assets/images/2017/2017-12-10-VSCodeSetup3.png)
 
 ### Configure VSCode for Azure Cloud Shell (PowerShell)
 
@@ -46,8 +46,8 @@ The article shows how to open Bash in Cloud Shell, but I wanted to open Cloud Sh
 4. Install Node.js on your device by accepting the defaults and relaunch VSCode.
 5. Open the Command Palette once again and type: Azure Open Powershell in Cloud Shell
 6. Popup will appear informing you that it is "Provisioning PowerShell in Cloud Shell may take a few seconds." In my case, it felt more like a minute or two.
-![VSCode](https://erleonard.github.io/assets/images/2017/2017-12-10-VSCodeSetup4.png)
+![VSCode]({{ site.url }}{{ site.baseurl }}/assets/images/2017/2017-12-10-VSCodeSetup4.png)
 
 If the PowerShell Cloud Shell fails to launch on the first try, just relaunch the Shell, and it should work just fine.
 
-![VSCode](https://erleonard.github.io/assets/images/2017/2017-12-10-VSCodeSetup6.png)
+![VSCode]({{ site.url }}{{ site.baseurl }}/assets/images/2017/2017-12-10-VSCodeSetup6.png)

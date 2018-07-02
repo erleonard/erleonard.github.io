@@ -53,7 +53,7 @@ The following example, we set the copyindex() with a starting value of 1 and we 
 Result: **Failure**
 
 Deploying the above template fails as it's trying to deploy the subnets in parallel and it does not have the necessary information.
-![DeploymentFailure](https://erleonard.github.io/assets/images/2018/2018-01-20-DeploymentFailure.png)
+![DeploymentFailure]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-01-20-DeploymentFailure.png)
 
 For the template deployment to succeed we need to modify the **Copy** element to instruct the template not to do it in parallel but serially and set the batchSize to the number of instances to deploy at a time.
 

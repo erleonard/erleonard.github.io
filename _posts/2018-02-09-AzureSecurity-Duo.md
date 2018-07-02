@@ -14,7 +14,7 @@ Deploying a developer or jump VM in the cloud can be easily done but once you ad
 
 As an example, I deployed a VM and left it running for 24 hours and had 321 failed login attempts.
 
-![FailedLogin](https://erleonard.github.io/assets/images/2018/2018-02-09-Failed-Logins.PNG)
+![FailedLogin]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-02-09-Failed-Logins.PNG)
 
 Using Duo Security, I can add two-factor authentication to all Windows logins via local console or RDP. Duo provides a free version that supports up to 10 users. Check out the plans comparison table to find out which version is right for you: [https://duo.com/pricing](https://duo.com/pricing)
 
@@ -22,10 +22,10 @@ The setup of Duo Authentication was extremely easy and was accomplished in 5 eas
 1.	Sign up for a Duo account. [https://signup.duosecurity.com/](https://duo.com/pricing)
 2.	Log in to the Duo Admin Panel and navigate to Applications.
 3.	Click Protect an Application and locate Microsoft RDP in the applications list. 
-![FailedLogin](https://erleonard.github.io/assets/images/2018/2018-02-09-Duo-ProtectApplication.PNG)
+![FailedLogin]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-02-09-Duo-ProtectApplication.PNG)
 
 4. Click Protect this Application to get your integration key, secret key, and API hostname.
-![FailedLogin](https://erleonard.github.io/assets/images/2018/2018-02-09-Duo-ProtectApplicationRDP.PNG)
+![FailedLogin]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-02-09-Duo-ProtectApplicationRDP.PNG)
 
 5.	[Download the Duo Authentication for Windows Logon Installer Package.](https://dl.duosecurity.com/duo-win-login-latest.exe)
 

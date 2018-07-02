@@ -21,7 +21,7 @@ To enable this feature:
 5. Click Save
 6. Done! Now you can see your annoucement on the Overview page.
 
-![2017-11-30-Annoucement](https://erleonard.github.io/assets/images/2017/2017-11-30-Annoucement.png)
+![2017-11-30-Annoucement]({{ site.url }}{{ site.baseurl }}/assets/images/2017/2017-11-30-Annoucement.png)
 
 ### 2. Accept License Terms for Custome Images
 This new feature is a little more subtle but a welcomed addition, when you are adding a custom image you can now add license terms that must be accepted before the image is accessible to users in the lab.

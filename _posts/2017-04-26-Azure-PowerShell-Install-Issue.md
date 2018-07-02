@@ -9,7 +9,7 @@ tags:
 ---
 I was working with the Azure ARM cmdlets today and encountered some issues with my deployments.  After some research, I found out that the AzureRM module I was using was outdated and needed an update. Installing a module is easy and painless but when I tried to install the updated version of the AzureRM module I encountered an error.
 
-![screenshot_00](https://erleonard.github.io/assets/images/2017/2017-04-26-Install-AzureRM-Issue.png)
+![screenshot_00]({{ site.url }}{{ site.baseurl }}/assets/images/2017/2017-04-26-Install-AzureRM-Issue.png)
 
 To resolve this issue, I needed to install the module with the AllowClobber option.
 
@@ -17,4 +17,4 @@ To resolve this issue, I needed to install the module with the AllowClobber opti
 
 Once I ran the above command, my issue was resolved.
 
-![screenshot_01](https://erleonard.github.io/assets/images/2017/2017-04-26-Install-AzureRM-Resolved.png)
+![screenshot_01]({{ site.url }}{{ site.baseurl }}/assets/images/2017/2017-04-26-Install-AzureRM-Resolved.png)

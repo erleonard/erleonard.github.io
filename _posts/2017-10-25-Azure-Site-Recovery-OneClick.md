@@ -13,7 +13,7 @@ Just announced, the Azure Site Recovery One-click Replication (public preview) i
 
 All you have to do is go to your Virtual machine, under operations and click Disaster recovery (Preview). On the next screen you select your target location and click enable replication.
 
-![ASR-OneClick](https://erleonard.github.io/assets/images/2017/2017-10-25-Azure-Site-Recovery-OneClick.PNG)
+![ASR-OneClick]({{ site.url }}{{ site.baseurl }}/images/2017/2017-10-25-Azure-Site-Recovery-OneClick.PNG)
 
 That's it, easy stuff.
 

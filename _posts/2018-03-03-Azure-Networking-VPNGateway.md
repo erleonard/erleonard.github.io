@@ -15,7 +15,7 @@ This post is part of a series. The previous posts in the series can be found her
 
 In this post, I wanted to talk about creating a Point-to-Site VPN connection. This is something that I do often when a customer wants to create a dev/test environment without exposing it to the outside world. A point-to-site connection is simply a VPN connection from a device to your Azure network gateway.
 
-![VPN Network Overview](https://erleonard.github.io/assets/images/2018/2018-03-03-VPN-Gateway.png)
+![VPN Network Overview]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-03-03-VPN-Gateway.png)
 
 Building on the previous Azure ARM template, I have added the Gateway Subnet that will contain the public IP address needed to configure the Azure Virtual Network Gateway.
 
