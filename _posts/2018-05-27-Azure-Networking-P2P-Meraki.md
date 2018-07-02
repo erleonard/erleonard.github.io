@@ -60,27 +60,27 @@ Create and configure the connection between Azure and your on-site router. I use
 
 1. Login to your Meraki dashboard https://dashboard.meraki.com
 2. Go to **Teleworker gateway** and select **site-to-site VPN**
-![Site-to-Site VPN Gateway cross-premises connection diagram](../assets\images\2018\2018-05-27-Meraki-Z3-Menu.png)
+![Site-to-Site VPN Gateway cross-premises connection diagram]({{ site.url }}{{ site.baseurl }}/assets\images\2018\2018-05-27-Meraki-Z3-Menu.png)
 3. On the site-to-site VPN page, under type select Hub (Mesh)
-![Site-to-Site VPN Gateway cross-premises connection diagram](../assets\images\2018\2018-05-27-Meraki-Z3-Hub.png)
+![Site-to-Site VPN Gateway cross-premises connection diagram]({{ site.url }}{{ site.baseurl }}/assets\images\2018\2018-05-27-Meraki-Z3-Hub.png)
 4. Further down on the page, under VPN settings, select the appropriate local networks that will be available for the VPN connection.
-![Site-to-Site VPN Gateway cross-premises connection diagram](../assets\images\2018\2018-05-27-Meraki-Z3-LocalNet.png)
+![Site-to-Site VPN Gateway cross-premises connection diagram]({{ site.url }}{{ site.baseurl }}/assets\images\2018\2018-05-27-Meraki-Z3-LocalNet.png)
 5. Continuing on the same page, under Organization-wide settings, Add a peer.
-![Site-to-Site VPN Gateway cross-premises connection diagram](../assets\images\2018\2018-05-27-Meraki-Z3-VPNpeering01.png)
+![Site-to-Site VPN Gateway cross-premises connection diagram]({{ site.url }}{{ site.baseurl }}/assets\images\2018\2018-05-27-Meraki-Z3-VPNpeering01.png)
 6. The non-Meraki VPN peers will appear and add the required information:
  - Name: provide name for the connection
  - Public IP: public IP of the Azure VPN gateway
  - Private subnet: Azure virtual network address space (do not enter individual subnets)
  - IPsec policies: click on default and change the preset to Azure
  - Preshared secret: enter the preshared key you used to create the Azure VPN gateway.
-![Site-to-Site VPN Gateway cross-premises connection diagram](../assets\images\2018\2018-05-27-Meraki-Z3-VPNpeering02.png)
-![Site-to-Site VPN Gateway cross-premises connection diagram](../assets\images\2018\2018-05-27-Meraki-Z3-IPsecPolicies.png)
+![Site-to-Site VPN Gateway cross-premises connection diagram]({{ site.url }}{{ site.baseurl }}/assets\images\2018\2018-05-27-Meraki-Z3-VPNpeering02.png)
+![Site-to-Site VPN Gateway cross-premises connection diagram]({{ site.url }}{{ site.baseurl }}/assets\images\2018\2018-05-27-Meraki-Z3-IPsecPolicies.png)
 
 ## Verify connectivity
 1. Go to **Teleworker gateway** and select **VPN status**
-![Site-to-Site VPN Gateway cross-premises connection diagram](../assets\images\2018\2018-05-27-Meraki-Z3-VPNstatus01.png)
+![Site-to-Site VPN Gateway cross-premises connection diagram]({{ site.url }}{{ site.baseurl }}/assets\images\2018\2018-05-27-Meraki-Z3-VPNstatus01.png)
 2. Go to **Non-Meraki peer**, ensure the status color is green.
-![Site-to-Site VPN Gateway cross-premises connection diagram](../assets\images\2018\2018-05-27-Meraki-Z3-VPNstatus02.png)
+![Site-to-Site VPN Gateway cross-premises connection diagram]({{ site.url }}{{ site.baseurl }}/assets\images\2018\2018-05-27-Meraki-Z3-VPNstatus02.png)
 3. If the status is not green, go to the event log to troubleshoot.
 
 # Lessons Learned
