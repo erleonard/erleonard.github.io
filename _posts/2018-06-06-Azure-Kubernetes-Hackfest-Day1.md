@@ -18,7 +18,7 @@ I travelled to Toronto this week to attend the Azure Kubernetes Hackfest for Mic
 The morning started off by getting everyone on the same page and review what containers are. This was a good review and helped unearth some of those memories that had gone dormant.
 
 Here is a quick illustration of a container VS. a traditional virtual machine:
-![Containers101](../assets/images/2018/2018-06-06-Containers.png)
+![Containers101]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-06-06-Containers.png)
 
 Some fascinating resources shared:
 - https://12factor.net/
@@ -43,7 +43,7 @@ Kubernetes architecture was covered at length, and we discussed the different co
 - Container Runtime
 
 
-![K8sArchitecture](../assets/images/2018/2018-06-08-K8s-arch.png)
+![K8sArchitecture]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-06-08-K8s-arch.png)
 
 Afterwards, we went into how Kubernetes fits into Azure and how we can use it.
 
@@ -56,15 +56,15 @@ By midafternoon we got to monitoring containers and geek out on this part of the
 
 Prometheus was installed easily into my environment but to be fair; they provided the configuration file for the install.
 
-![Prometheus](../assets/images/2018/2018-06-06-Prometheus.png)
+![Prometheus]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-06-06-Prometheus.png)
 
 Next up was Grafana, this tool was easy to install, but I lost some time configuring Grafana.  I think I lost 20 minutes trying to figure out why I couldn't get Grafana to get the data from Prometheus, only to realize that I forgot to select the Type. #Facepalm
 
-![GrafanaDataSource](../assets/images/2018/2018-06-06-Grafana-DataSource.png)
+![GrafanaDataSource]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-06-06-Grafana-DataSource.png)
 
 After configuring the data source, I added my dashboard to Grafana and I was done.
 
-![GrafanaDashboard](../assets/images/2018/2018-06-06-Grafana.png)
+![GrafanaDashboard]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-06-06-Grafana.png)
 
 The day finished off by discussing Storage, Online Service Broker for Azure and upgrading Kubernetes clusters. Which at that point was way too much information for me and will need some time to review and learn some more.
 
