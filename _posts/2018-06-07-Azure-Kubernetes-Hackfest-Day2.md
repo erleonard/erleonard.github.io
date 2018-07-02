@@ -24,7 +24,7 @@ The day was broken down into 7 challenges.
 
 I remember the night before thinking that this day wasn't going to be so bad but it's one thing to do training and another to migrate a real application. But by the end of the day, I had migrated our time keeping application to Azure.
 
-![Class](../assets/images/2018/2018-06-07-KubernetesClass.png)
+![Class]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-06-07-KubernetesClass.png){: .align-center}
 
 The Kubernetes Hackfest couldn't have been possible without our presenters today Kevin Harris (@KevinBHar) and Ray Kao (@raykao ) and Mathieu Benoit. They are all excellent speakers and really know what they are talking about.
 
