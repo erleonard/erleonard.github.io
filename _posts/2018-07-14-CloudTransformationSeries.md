@@ -10,7 +10,9 @@ tags:
 ---
 ![CloudTransformationSeries]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-07-14-CTS.jpg){: height="50%" .align-center}
 
-This coming July 24th with Microsoft we will be hosting a webinar on Azure Lab Services.
+Join me and Microsoft for how we can simply your lab deployment with Azure Lab Services.
+
+The webinar will be held on July 24th from 1:00 PM - 2:00 PM EST.
 
 [Register](https://info.microsoft.com/ca-azureinfra-wbnr-fy18-07jul-24-bringfunbacktodevtest-mcw0007674_01registration-forminbody.html?wt.mc_id=AID719456_QSG_EML_256392){: .btn .btn--info .align-center}
 
