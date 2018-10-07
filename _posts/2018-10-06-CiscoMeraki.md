@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Azure Site to Site VPN with Cisco Meraki vMX100"
-date:   2018-07-14 14:17:12 -0500
+date:   2018-10-06 14:17:12 -0500
 categories:
   - Azure
   -Cisco
@@ -11,7 +11,7 @@ tags:
   - VPN
 ---
 
-The Cisco Meraki vitual MX can extend your physical MX deployment to Microsoft Azure in less then an hour through the same Meraki dashboard. vMx100 with Auto VPN can easily connect your network with Azure.
+The Cisco Meraki virtual MX can extend your physical MX deployment to Microsoft Azure in less than an hour through the same Meraki dashboard. vMx100 with Auto VPN can easily connect your network with Azure.
 
 Cisco Meraki's virtual MX extends your physical MX deployment in minutes through the same 
 Meraki dashboard. vMXIOO can be used as your SD-WAN and Auto VPN node to easily connect your 
@@ -19,13 +19,13 @@ network with your Azure deployed services. Leveraging the power of the cloud, Ci
 MX can configure, monitor, and maintain your VPN so you don't have to. 
 
 # Meraki dashboard steps
-1. Login to the Cisco Meraki dashboard
+1. Log in to the Cisco Meraki dashboard
 2. Click on your current network, it will expand to see a list of existing network and select "create a new network".
-3. Enter a network name, set the network type to security appliance and then click on the create network button.
+3. Enter a **network name**, set the network type to **security appliance** and then click on the **create network** button.
 ![MerakiNewNetwork]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-10-06-MerakiNewNetwork.png)
 4. Once you created your network you will be able to add the vMX to the newly created network.
 ![MerakiNewNetwork]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-10-06-MerakiAddvMX.png)
-5. After it's added to your network, your will need to "Generate authentication token". The token will be used when you perform your vMX deployment in Azure.
+5. After it's added to your network, you will need to "Generate authentication token". The token will be used when you perform your vMX deployment in Azure.
 ![MerakiNewNetwork]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-10-06-MerakiGenerateToken.png)
 
 # Steps prior to deployment in Azure
@@ -56,6 +56,6 @@ Deploying directly the Cisco Meraki vMX100 from the Azure Marketplace will resul
 5. Click **Create**.
 6. Enter a **VM name**, **resource group** and **location**. Click **Create**.
 7. Once the Route Table is creating, we will open it and add a route.
-8. Enter a Route name, Address prefix (this is your on-premisess network), next hope type as Virtual Appliance and next hope address as the IP address of your vMX100.
+8. Enter a Route name, Address prefix (this is your on-premises network), next hope type as Virtual Appliance and next hope address as the IP address of your vMX100.
 ![AzureRouteTable]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-10-06-AzureRoutes.png)
 9. Last Step, under subnets, associate the subnet where the vMX100 was created.
