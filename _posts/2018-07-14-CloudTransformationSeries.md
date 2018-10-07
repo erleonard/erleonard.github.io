@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Bring Fun Back to DevTest!"
+title:  "Microsoft Cloud Transformation Series: Lab Services"
 date:   2018-07-14 14:17:12 -0500
 categories:
   - Azure
