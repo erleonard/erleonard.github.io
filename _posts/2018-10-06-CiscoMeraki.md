@@ -2,7 +2,7 @@
 layout: single
 toc: true
 title:  "Azure Site to Site VPN with Cisco Meraki vMX100"
-toc_icon: "mixcloud"
+toc_icon: "cloud"
 date:   2018-10-06 14:17:12 -0500
 categories:
   - Azure
@@ -30,14 +30,14 @@ MX can configure, monitor, and maintain your VPN so you don't have to.
 5. After it's added to your network, you will need to "Generate authentication token". The token will be used when you perform your vMX deployment in Azure.
 ![MerakiNewNetwork]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-10-06-MerakiGenerateToken.png)
 
-# Steps prior to deployment in Azure
+## Steps prior to deployment in Azure
 **PLEASE READ BEFORE YOU DEPLOY**
 
 Deploying directly the Cisco Meraki vMX100 from the Azure Marketplace will result in the deployment of a [Managed Application](https://docs.microsoft.com/en-us/azure/managed-applications/overview) resource in the resource group and the actual deployment of the vMX100 into a read-only resource group. To ensure you can successfully operate the vMX100 in the future, it is highly recommended that you create the virtual network.
 
 * Create networking resource group and virtual network
 
-# Azure deployment steps
+## Azure deployment steps
 1. Select **+ Create a resource** on the upper, left corner of the Azure portal.
 2. In the search box, type **vMX100**, hit **Enter** and select the **Cisco Meraki vMX100**.
 3. Click **Create**.
@@ -50,7 +50,7 @@ Deploying directly the Cisco Meraki vMX100 from the Azure Marketplace will resul
 7. Review the terms of use and privacy policy, click **Create**.
 ![AzureVMX100]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-10-06-AzureVMX100Step4.png)
 
-# Configure Auto VPN
+## Configure Auto VPN
 1. Verify that the vMX100 is showing online in the Meraki Dashboard
 2. After verification is complete, go back to the Azure portal.
 3. 1. Select **+ Create a resource** on the upper, left corner of the Azure portal.
