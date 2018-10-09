@@ -2,6 +2,7 @@
 layout: single
 toc: true
 title:  "Azure Site to Site VPN with Cisco Meraki vMX100"
+toc_icon: "mixcloud"
 date:   2018-10-06 14:17:12 -0500
 categories:
   - Azure
@@ -19,7 +20,7 @@ Meraki dashboard. vMXIOO can be used as your SD-WAN and Auto VPN node to easily 
 network with your Azure deployed services. Leveraging the power of the cloud, Cisco Meraki's virtual 
 MX can configure, monitor, and maintain your VPN so you don't have to. 
 
-# Meraki dashboard steps
+## Meraki dashboard steps
 1. Log in to the Cisco Meraki dashboard
 2. Click on your current network, it will expand to see a list of existing network and select "create a new network".
 3. Enter a **network name**, set the network type to **security appliance** and then click on the **create network** button.
