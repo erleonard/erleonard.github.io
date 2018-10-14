@@ -16,7 +16,7 @@ tags:
 The Cisco Meraki virtual MX can extend your physical MX deployment to Microsoft Azure in less than an hour through the same Meraki dashboard. vMx100 with Auto VPN can easily connect your network with Azure.
 
 Cisco Meraki's virtual MX extends your physical MX deployment in minutes through the same 
-Meraki dashboard. vMXIOO can be used as your SD-WAN and Auto VPN node to easily connect your 
+Meraki dashboard. vMX100 can be used as your SD-WAN and Auto VPN node to easily connect your 
 network with your Azure deployed services. Leveraging the power of the cloud, Cisco Meraki's virtual 
 MX can configure, monitor, and maintain your VPN so you don't have to. 
 
@@ -61,3 +61,6 @@ Deploying directly the Cisco Meraki vMX100 from the Azure Marketplace will resul
 8. Enter a Route name, Address prefix (this is your on-premises network), next hope type as Virtual Appliance and next hope address as the IP address of your vMX100.
 ![AzureRouteTable]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-10-06-AzureRoutes.png)
 9. Last Step, under subnets, associate the subnet where the vMX100 was created.
+
+## Conclusion
+The Cisco Meraki vMX100 is a great and easy to configure network virtual appliance that provides Auto VPN between on-premises locations and Azure. Also if you have a multi-cloud implementation with Azure and AWS this makes things a whole lot easier to configure and manage.

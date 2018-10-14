@@ -44,7 +44,7 @@ In this example, I'm going to move a virtual machine with two managed disks and 
 3. In the menu select **Move**, **Move to another subscription**
 ![AzureRGmenu]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-10-14-AzureRGmenu.png)
 4. Select the managed disk. In this example, I'm going to move the virtual machine with the managed disk, availability set and networking resources.
-![ManagedDiskMove]({{ site.url }}{{ site.baseurl }}/assets/images/2018-10-14-AzureSelectResourcesMove.png)
+![ManagedDiskMove]({{ site.url }}{{ site.baseurl }}/assets/images/2018/2018-10-14-AzureSelectResourcesMove.png)
 6. Click **Ok**.
 
 Once you click ok, it will validate the resources and move the managed disks to the other subscription. The amount of time will depend how large the managed disk is.
