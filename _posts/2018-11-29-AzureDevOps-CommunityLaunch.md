@@ -22,8 +22,8 @@ We had some amazing speakers at our event:
 
 A successful event cannot happen without sponsors and a big thank you to our sponsors for the swag, catering and event space.
 
-![Microsoft]({{ site.url }}{{ site.baseurl }}/assets/images/Microsoft-logo.png)
-![Syncfusion]({{ site.url }}{{ site.baseurl }}/assets/images/Syncfusion-logo.png)
-![Redgate]({{ site.url }}{{ site.baseurl }}/assets/images/Redgate-logo.png)
+![Microsoft]({{ site.url }}{{ site.baseurl }}/assets/images/Microsoft-logo.png){: height="50%" .align-center}
+![Syncfusion]({{ site.url }}{{ site.baseurl }}/assets/images/Syncfusion-logo.png){: height="50%" .align-center}
+![Redgate]({{ site.url }}{{ site.baseurl }}/assets/images/Redgate-logo.png){: height="50%" .align-center}
 
 Organizing an event is a lot of hard work and I must say it was odd for me not to speak at an event. But it was nice to sit back and enjoy the event and see everyone learning about the great new features in Azure DevOps.
