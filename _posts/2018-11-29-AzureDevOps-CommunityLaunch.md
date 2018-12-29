@@ -2,8 +2,6 @@
 layout: single
 title:  "Azure DevOps Community launch: Ottawa Edition"
 date:   2018-11-29 14:17:12 -0500
-toc: true
-toc_icon: "cloud"
 categories:
   - Azure
 tags:
