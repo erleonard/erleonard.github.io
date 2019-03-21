@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Azure Blueprints"
+title:  "Azure Blueprints: Intro"
 date:   2019-03-15 14:17:12 -0500
 categories:
   - Azure
@@ -57,5 +57,6 @@ To assign a blueprint follows almost the same steps a publishing blueprints.
   - Enter the required parameters for the resources.
   - Select **Assign** and the blueprint will not apply to the subscription you picked.
 
+That was a quick overview of how you can create, edit and assign blueprints to management groups or subscriptions. Keep in mind that Azure blueprints are still in preview.
 
-Azure blueprints will make your governance journey much easier by orchestrating the deployments of new environments.  But keep in mind that with any Governance projects the technical piece is always the smallest and you will spend the bulk of your time trying to figure out your customer's compliance and regulatory requirements.
+In conclusion, Azure blueprints will make your governance journey much easier by orchestrating the deployments of new environments.  But keep in mind that with any Governance projects the technical piece is always the smallest and you will spend the bulk of your time trying to figure out your customer's compliance and regulatory requirements.
