@@ -43,21 +43,21 @@ Let's take a quick view as to what is included in the blueprint:
 
 **Policy**
   - Require blob encryption for storage accounts
-  - [Preview]: Deploy Log Analytics Agent for Windows VMs
+  - Deploy Log Analytics Agent for Windows VMs
   - Deploy Threat Detection on SQL servers
   - Deploy SQL DB transparent data encryption
   - Allowed virtual machine SKUs
-  - [Preview]: Deploy Log Analytics Agent for Windows VM Scale Sets (VMSS)
-  - [Preview]: Deploy Log Analytics Agent for Linux VMs
+  - Deploy Log Analytics Agent for Windows VM Scale Sets (VMSS)
+  - Deploy Log Analytics Agent for Linux VMs
   - Deploy network watcher when virtual networks are created
   - Enforce encryption on Data Lake Store accounts
   - Allowed locations
-  - [Preview]: Deploy Log Analytics Agent for Linux VM Scale Sets (VMSS)
+  - Deploy Log Analytics Agent for Linux VM Scale Sets (VMSS)
   - Enforce automatic OS upgrade with app health checks on VMSS
   - Allowed storage account SKUs
   - Deploy default Microsoft IaaSAntimalware extension for Windows Server
   - Allowed locations for resource groups
-  
+
 **Key Vault**
   - Deploy Azure key vault
   - Add secrets to key vault
