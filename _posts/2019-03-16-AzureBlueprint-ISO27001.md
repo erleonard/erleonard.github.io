@@ -112,7 +112,7 @@ After managed identity is where the blueprint parameters are for the individual 
 
   Once the template gets assigned, it will take a little while for it to deploy and you can check the provisioning state or the activity logs for updates on the deployment.
 
-  ## Lessons Learned
+## Lessons Learned
   When I originally deployed the template for the first time, it kept failing because I didn't read carefully the section for Key Vault. 
   
   The parameter "Key Vault secret name for domain(or jumpbox) admin password", I kept adding the password I wanted but this parameter field needed to match the domain username found in the key vault template section.
