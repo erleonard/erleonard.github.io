@@ -24,19 +24,23 @@ Let's take a quick view as to what is included in the blueprint:
 
 **Azure Security Center**
   - Configure Azure security center with the standard pricing tier.
+
 **Log Analytics**
   - Create diagnostic storage account
   - Deploy Log Analytics workspace
   - Set default log data retention to 365 days
+
 **Networking**
   - Deploy and configure Azure firewall
   - Deploy virtual network with IP range and subnets
   - Deploy network security group and application security groups
   - Set user-defined routes (UDR).
+
 **Virtual Machines**
   - Deploy two active directory domain services servers
   - Deploy one jumpbox
   - Availability sets
+
 **Policy**
   - Require blob encryption for storage accounts
   - [Preview]: Deploy Log Analytics Agent for Windows VMs
@@ -53,6 +57,7 @@ Let's take a quick view as to what is included in the blueprint:
   - Allowed storage account SKUs
   - Deploy default Microsoft IaaSAntimalware extension for Windows Server
   - Allowed locations for resource groups
+  
 **Key Vault**
   - Deploy Azure key vault
   - Add secrets to key vault
