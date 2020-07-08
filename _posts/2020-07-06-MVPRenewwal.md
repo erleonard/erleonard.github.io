@@ -16,5 +16,6 @@ July 1st is a day of joy and anxiety for me as I celebrate Canada day with my fa
 
 Looking forward to adding another ring to my award.
 
-Happy Canada Day! <i class="fab fa-canadian-maple-leaf"></i>
-<i class='fab fa-canadian-maple-leaf' style='font-size:48px;color:red'></i>
+Happy Canada Day!
+
+Eric.
