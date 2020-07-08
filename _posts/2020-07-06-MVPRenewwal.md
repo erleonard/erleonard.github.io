@@ -2,6 +2,7 @@
 layout: single
 title:  "Microsoft Azure MVP Update"
 date:   2019-07-06 14:17:12 -0500
+author: Eric Leonard
 toc: false
 toc_icon: "cloud"
 categories:
