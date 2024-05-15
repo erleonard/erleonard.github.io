@@ -61,15 +61,15 @@ plugins:
 author:
   name   : "Eric Leonard"
   avatar : "/assets/images/me_xsmall.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Cloud Solution Architect focusing on cloud techhnologies. I'm a husband, father, and technologist. I love to learn and share my knowledge with others. Views are my own."
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fa-brands fa-square-x-twitter"
       url: "https://twitter.com/erleonard"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/erleonard"
-    - label: "Instagram"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/erleonard"
 
