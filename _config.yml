@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Random thoughts in my trials to learn the cloud
+title: Cloud Ascent Elevating Your Cloud Journey
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Eric Leonard"
   avatar : "/assets/images/me_xsmall.jpg"
-  bio    : "Cloud Solution Architect focusing on cloud techhnologies. I'm a husband, father, and technologist. I love to learn and share my knowledge with others. Views are my own."
+  bio    : "Cloud Solution Architect focusing on cloud techhnologies. I love to learn and share my knowledge with others. Views are my own."
   links:
     - label: "Twitter"
       icon: "fa-brands fa-square-x-twitter"
