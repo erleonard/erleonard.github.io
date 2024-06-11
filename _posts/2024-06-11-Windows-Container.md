@@ -11,5 +11,9 @@ tags:
   - WindowsContainers
 ---
 
-**Note**
-Experimental Windows Containers support is now available with containerd worker with BuildKit 0.13. 
+**Info Notice:** Experimental Windows Containers support is now available with containerd worker with BuildKit 0.13. 
+{: .notice--info}
+
+text
+text
+text
