@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Windows Container Local Development"
+title:  "Windows Container Local Development with BuildKit"
 date:   2024-06-10 12:00:00 -0500
 toc: false
 toc_icon: "cloud"
@@ -13,10 +13,13 @@ tags:
 
 **Info Notice:** Experimental Windows Containers support is now available with containerd worker with BuildKit 0.13. 
 {: .notice--info}
+# BuildKit
 
-text
-text
-text
+## What is BuildKit?
+BuildKit is a toolkit for converting source code into build artifacts, such as container images, in an efficient, expressive, and repeatable manner. It has been the default build engine on Linux since Docker Engine 23.0.0. With BuildKit, you can parallelize building independent build stages, incrementally transfer only changed files, and use Dockerfile frontend implementations with new features.
+
+## Experimental Windows Containers Support
+The exciting news is that the latest BuildKit release, v0.13.0, includes experimental Windows Containers support1. Until now, Buildx (the BuildKit client) on Windows was primarily used for building Linux images and limited Windows images through cross-compilation. However, with this release, Windows Containers are now supported directly in BuildKit.
 
 Hyper-V
 ```bash
