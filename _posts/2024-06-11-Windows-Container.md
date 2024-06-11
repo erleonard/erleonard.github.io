@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Windows Container Local Development"
-date:   2024-06-11 12:00:00 -0500
+date:   2024-06-10 12:00:00 -0500
 toc: false
 toc_icon: "cloud"
 categories:
