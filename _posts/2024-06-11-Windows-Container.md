@@ -2,7 +2,7 @@
 layout: single
 title:  "Windows Container Local Development with BuildKit"
 date:   2024-06-10 12:00:00 -0500
-toc: false
+toc: true
 toc_icon: "cloud"
 categories:
   - Azure
