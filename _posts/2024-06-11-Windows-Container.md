@@ -11,9 +11,6 @@ tags:
   - WindowsContainers
 ---
 
-**Info Notice:** Experimental Windows Containers support is now available with containerd worker with BuildKit 0.13. 
-{: .notice--info}
-# BuildKit
 
 ## What is BuildKit?
 BuildKit is a toolkit for converting source code into build artifacts, such as container images, in an efficient, expressive, and repeatable manner. It has been the default build engine on Linux since Docker Engine 23.0.0. With BuildKit, you can parallelize building independent build stages, incrementally transfer only changed files, and use Dockerfile frontend implementations with new features.
